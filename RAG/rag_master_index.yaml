@@ -1,0 +1,110 @@
+version: "1.2.0"
+
+# RAG Master Index - Orchestrates all component packs for optimal viral business script generation
+
+packs:
+  core: CORE_PACK.yaml
+  style: STYLE_PACK.yaml
+  engagement: ENGAGEMENT_PACK.yaml
+  persona: PERSONA_PACK.yaml
+  hook: HOOK_PACK.yaml
+  runtime_quality: RUNTIME_QUALITY.yaml
+  business_science: BUSINESS_SCIENCE_PACK.yaml
+  social_optimization: SOCIAL_OPTIMIZATION_PACK.yaml
+
+# Clean module mapping - no syntax errors
+module_mapping:
+  framework_mapper: "BUSINESS_SCIENCE_PACK.yaml#marketing_science.framework_mapper"
+  evidence_engine: "BUSINESS_SCIENCE_PACK.yaml#marketing_science.evidence_engine"
+  consumer_psych_injector: "BUSINESS_SCIENCE_PACK.yaml#marketing_science.consumer_psych_injector"
+  case_study_stitcher: "BUSINESS_SCIENCE_PACK.yaml#marketing_science.case_study_stitcher"
+  business_claims_compliance: "BUSINESS_SCIENCE_PACK.yaml#marketing_science.compliance_filter"
+  viral_hook_engine: "CORE_PACK.yaml#viral_hook_engine"
+  deep_research_engine: "CORE_PACK.yaml#deep_research_engine"
+  persona_fusion_bridge: "PERSONA_PACK.yaml#exports.persona_fusion_bridge"
+  style_fusion_strategy: "STYLE_PACK.yaml#fusion_strategy"
+  replay_logic: "ENGAGEMENT_PACK.yaml#replay_logic"
+  cta_engine: "ENGAGEMENT_PACK.yaml#cta_engine"
+  fact_verification: "RUNTIME_QUALITY.yaml#enhanced_fact_verification"
+  originality_guard: "RUNTIME_QUALITY.yaml#originality_guard"
+  title_generation_engine: "ENGAGEMENT_PACK.yaml#title_generation_engine"
+  caption_cta_engine: "ENGAGEMENT_PACK.yaml#caption_cta_engine"
+  viral_hashtag_engine: "SOCIAL_OPTIMIZATION_PACK.yaml#viral_hashtag_engine"
+  viral_amplification_engine: "SOCIAL_OPTIMIZATION_PACK.yaml#viral_amplification_engine"
+
+# Optimized execution flow for viral business scripts
+execution_flow:
+  initialization:
+    - load_business_science_pack
+    - activate_viral_script_compatibility
+    - initialize_indonesian_business_context
+  
+  planning:
+    - framework_selection: "framework_mapper.rules"
+    - evidence_planning: "evidence_engine.output_format"
+    - hook_archetype_selection: "viral_hook_engine.hook_archetype_pool"
+    - persona_optimization: "persona_fusion_bridge.viral_script_tone_support"
+  
+  content_generation:
+    - viral_script_structure_mapping
+    - authority_establishment_if_needed
+    - conspiracy_revelation_if_applicable
+    - comparison_analysis_integration
+    - pattern_recognition_education
+    - title_generation: "title_generation_engine.hook_aligned_title_patterns"
+    - caption_generation: "caption_cta_engine.hook_aligned_captions"
+    - hashtag_selection: "viral_hashtag_engine.hook_based_hashtag_mapping"
+  
+  enhancement:
+    - inject_consumer_psychology: "consumer_psych_injector.example_lines"
+    - optional_case_study_integration: "case_study_stitcher.examples"
+    - replay_trigger_injection: "replay_logic.memory_trigger_injection"
+    - engagement_optimization: "cta_engine.viral_script_patterns"
+    - social_amplification: "viral_amplification_engine.engagement_amplification"
+    - platform_optimization: "viral_hashtag_engine.platform_hashtag_strategies"
+  
+  validation:
+    - fact_verification_check: "fact_verification.business_fact_handling"
+    - compliance_enforcement: "business_claims_compliance.rules"
+    - originality_verification: "originality_guard.viral_script_pattern_blocking"
+    - platform_structure_validation: "RUNTIME_QUALITY.yaml#structure_language_enforcer"
+
+# Enhanced validation requirements for viral business content
+validation_requirements:
+  authority_content:
+    require_evidence: true
+    verify_corporate_experience_claims: true
+    frame_as_personal_experience: true
+  
+  metrics_content:
+    require_context: true
+    use_ranges_not_absolutes: true
+    include_disclaimers: true
+  
+  marketing_evidence_requirements:
+    forbid_absolute_promises: true
+    require_principle_if_strong_claim: true
+    metrics_must_include_baseline_or_range: true
+    present_conspiracy_theories_as_analysis: true
+    balance_revelation_with_education: true
+  
+  viral_script_requirements:
+    maintain_educational_value: true
+    avoid_harmful_misinformation: true
+    verify_business_relationship_claims: true
+    frame_observations_as_analysis: true
+    provide_alternative_explanations: true
+
+# Integration priorities for optimal viral business script generation
+integration_priorities:
+  primary: "business_education_with_viral_potential"
+  secondary: "indonesian_gen_z_entrepreneur_focus"
+  tertiary: "platform_optimization_and_engagement"
+
+# Global configuration
+global_config:
+  target_audience: "gen_z_entrepreneurs_18_27"
+  content_focus: "indonesian_business_education"
+  viral_optimization: true
+  educational_priority: true
+  cultural_sensitivity: true

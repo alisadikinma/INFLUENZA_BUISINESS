@@ -1,0 +1,458 @@
+version: "1.0.0"
+
+creator_styles:
+  # Define stylistic DNA for each supported creator persona. These profiles enable
+  # authentic tone replication when blending with topic-specific advice.
+
+  samuel_christ:
+    tone: high_energy_comedy
+    pacing: rapid_fire
+    lexical_guidance:
+      emoji_use: light
+      rhetorical_question_frequency: high
+      humor_density: high
+
+  # PATCHED: Added Andrew Susanto style
+  andrew_susanto:
+    tone: business_practical_direct
+    pacing: quick_efficient
+    lexical_guidance:
+      business_term_frequency: high
+      action_orientation: very_high
+      simplification_bias: strong
+      dm_cta_preference: true
+    platform_specialization:
+      instagram_reels:
+        hook_style: ultra_quick_grab
+        visual_sync: carousel_transition_aware
+        cta_pattern: dm_or_comment_engagement
+      instagram_carousel:
+        information_density: high
+        swipe_motivation: built_in
+        final_slide_cta: strong
+
+  # PATCHED: Added Dery Anshaa style  
+  dery_anshaa:
+    tone: educational_methodical_practical
+    pacing: step_by_step_clear
+    lexical_guidance:
+      explanation_depth: high
+      case_study_integration: frequent
+      actionable_focus: maximum
+      technical_accuracy: high
+    platform_specialization:
+      youtube_long_form:
+        structure_preference: framework_based
+        example_integration: heavy
+        step_wise_progression: mandatory
+        practical_application_focus: true
+
+  fallback_creator:
+    tone: neutral_conversational
+    pacing: balanced
+    lexical_guidance:
+      slang_usage: moderate
+      humor_density: low
+      empathy_signal: medium
+
+style_contracts:
+  allow_override: false
+  consumers:
+    - hook_generator
+    - cta_engine
+    - narrative_consistency_enforcer
+
+fusion_strategy:
+  inputs:
+    - persona_fusion_bridge
+    - topic_style_advisor
+
+  blend:
+    # Simplified equal weighting to avoid conflicting influences
+    advisor_ratio: 0.5
+    persona_ratio: 0.5
+
+  exports:
+    style_weights:
+      persona_ratio: 0.5
+      advisor_ratio: 0.5
+
+  contract:
+    downstream_usage: consume_only
+    integration_instructions:
+      - Use this fused persona voice consistently across all modules.
+      - Visual prompt tone must match fused voice (no excessive energy if voice is subtle).
+      - CTA voice must inherit fused tone — avoid style switch at closing.
+
+validation_tags:
+  - voice_stability
+  - personality_consistency
+  - style_fusion_integrity
+  - fallback_conflict_resolved
+
+dynamic_style_fusion:
+  module_id: dynamic_style_adaptation
+  enabled: true
+
+  content_type_mapping:
+    viral_controversy:
+      samuel_christ: 0.3
+      andrew_susanto: 0.4
+      dery_anshaa: 0.3
+      tone_bias: practical_edge
+
+    viral_educational:
+      samuel_christ: 0.2
+      andrew_susanto: 0.3
+      dery_anshaa: 0.5
+      tone_bias: authority_accessible
+
+    viral_emotional:
+      samuel_christ: 0.6
+      andrew_susanto: 0.4
+      dery_anshaa: 0.0
+      tone_bias: vulnerable_relatable
+
+  viral_mode_triggers:
+    - high_replay_potential: '>0.75'
+    - controversial_topic_detected: true
+    - psychological_trigger_present: true
+
+# ENHANCED: Extended topic style advisor with viral script contexts
+topic_style_advisor:
+  profiles:
+    # Original business contexts
+    - topic_keywords:
+        - bisnis
+        - entrepreneur
+        - startup
+        - UMKM
+        - cash flow
+        - modal
+      recommended_fusion:
+        samuel_christ: 0.2
+        andrew_susanto: 0.6
+        dery_anshaa: 0.2
+      confidence_score: 0.95
+      fusion_tag: business_practical_authority
+
+    # ENHANCED: Retail psychology context (Script 1)
+    - topic_keywords:
+        - retail psychology
+        - supermarket strategy
+        - consumer behavior
+        - shopping patterns
+        - store layout
+        - customer manipulation
+      recommended_fusion:
+        samuel_christ: 0.2
+        andrew_susanto: 0.3
+        dery_anshaa: 0.5
+      confidence_score: 0.93
+      fusion_tag: retail_psychology_analyst
+
+    # ENHANCED: Brand positioning context (Script 2) 
+    - topic_keywords:
+        - brand positioning
+        - pricing strategy
+        - value proposition
+        - premium positioning
+        - brand perception
+        - market placement
+      recommended_fusion:
+        samuel_christ: 0.1
+        andrew_susanto: 0.4
+        dery_anshaa: 0.5
+      confidence_score: 0.94
+      fusion_tag: brand_positioning_strategist
+
+    # ENHANCED: Competitive strategy context (Script 3, 6)
+    - topic_keywords:
+        - competitive strategy
+        - market blocking
+        - competitive analysis
+        - competitor positioning
+        - market space control
+        - competitive advantage
+      recommended_fusion:
+        samuel_christ: 0.1
+        andrew_susanto: 0.3
+        dery_anshaa: 0.6
+      confidence_score: 0.95
+      fusion_tag: competitive_strategy_analyst
+
+    # ENHANCED: Viral marketing context (Script 4)
+    - topic_keywords:
+        - viral marketing
+        - free marketing
+        - word of mouth
+        - organic growth
+        - social media strategy
+        - viral tactics
+      recommended_fusion:
+        samuel_christ: 0.4
+        andrew_susanto: 0.4
+        dery_anshaa: 0.2
+      confidence_score: 0.91
+      fusion_tag: viral_marketing_strategist
+
+    # ENHANCED: Branding psychology context (Script 5)
+    - topic_keywords:
+        - branding psychology
+        - brand recall
+        - psychological triggers
+        - brand loyalty
+        - rule of three
+        - marketing principles
+      recommended_fusion:
+        samuel_christ: 0.2
+        andrew_susanto: 0.4
+        dery_anshaa: 0.4
+      confidence_score: 0.92
+      fusion_tag: branding_psychology_educator
+
+    # ENHANCED: FMCG strategies context (Script 7)
+    - topic_keywords:
+        - FMCG strategies
+        - fast moving consumer goods
+        - retail strategies
+        - consumer products
+        - market penetration
+        - product development
+      recommended_fusion:
+        samuel_christ: 0.1
+        andrew_susanto: 0.3
+        dery_anshaa: 0.6
+      confidence_score: 0.96
+      fusion_tag: fmcg_strategy_expert
+
+    # ENHANCED: Customer acquisition context (Script 9)
+    - topic_keywords:
+        - customer acquisition
+        - free marketing channels
+        - community marketing
+        - word of mouth marketing
+        - customer referrals
+        - organic customer growth
+      recommended_fusion:
+        samuel_christ: 0.2
+        andrew_susanto: 0.5
+        dery_anshaa: 0.3
+      confidence_score: 0.93
+      fusion_tag: customer_acquisition_specialist
+
+    # ENHANCED: Business mistakes context (Script 8)
+    - topic_keywords:
+        - business mistakes
+        - entrepreneur failures
+        - startup errors
+        - business analysis
+        - failure prevention
+        - business lessons
+      recommended_fusion:
+        samuel_christ: 0.3
+        andrew_susanto: 0.5
+        dery_anshaa: 0.2
+      confidence_score: 0.90
+      fusion_tag: business_mistakes_advisor
+
+    # ENHANCED: Authority establishment context (Script 7)
+    - topic_keywords:
+        - corporate experience
+        - FMCG background
+        - industry expertise
+        - professional authority
+        - business credibility
+        - work experience
+      recommended_fusion:
+        samuel_christ: 0.1
+        andrew_susanto: 0.2
+        dery_anshaa: 0.7
+      confidence_score: 0.97
+      fusion_tag: corporate_authority_expert
+
+    # Original contexts continue...
+    - topic_keywords:
+        - omzet
+        - margin
+        - profit
+        - revenue
+        - penjualan
+      recommended_fusion:
+        samuel_christ: 0.1
+        andrew_susanto: 0.5
+        dery_anshaa: 0.4
+      confidence_score: 0.92
+      fusion_tag: financial_metrics_educator
+
+    - topic_keywords:
+        - working capital
+        - AR/AP
+        - accounts receivable
+        - accounts payable
+        - inventory
+      recommended_fusion:
+        samuel_christ: 0.0
+        andrew_susanto: 0.3
+        dery_anshaa: 0.7
+      confidence_score: 0.94
+      fusion_tag: technical_finance_analysis
+
+    - topic_keywords:
+        - CCC
+        - cash conversion cycle
+        - inventory turnover
+        - days sales outstanding
+      recommended_fusion:
+        samuel_christ: 0.0
+        andrew_susanto: 0.2
+        dery_anshaa: 0.8
+      confidence_score: 0.96
+      fusion_tag: advanced_finance_technical
+
+    - topic_keywords:
+        - pricing psychology
+        - customer behavior
+        - market research
+        - consumer insights
+      recommended_fusion:
+        samuel_christ: 0.3
+        andrew_susanto: 0.4
+        dery_anshaa: 0.3
+      confidence_score: 0.90
+      fusion_tag: market_psychology_blend
+
+    - topic_keywords:
+        - growth
+        - scaling
+        - expansion
+        - MoM
+        - YoY
+        - monthly growth
+        - yearly growth
+      recommended_fusion:
+        samuel_christ: 0.2
+        andrew_susanto: 0.5
+        dery_anshaa: 0.3
+      confidence_score: 0.91
+      fusion_tag: growth_strategy_focused
+
+    - topic_keywords:
+        - operations
+        - supply chain
+        - logistics
+        - vendor management
+        - procurement
+      recommended_fusion:
+        samuel_christ: 0.1
+        andrew_susanto: 0.3
+        dery_anshaa: 0.6
+      confidence_score: 0.89
+      fusion_tag: operational_excellence
+
+    - topic_keywords:
+        - mindset
+        - motivation
+        - entrepreneur mindset
+        - business psychology
+      recommended_fusion:
+        samuel_christ: 0.5
+        andrew_susanto: 0.4
+        dery_anshaa: 0.1
+      confidence_score: 0.87
+      fusion_tag: motivational_business
+
+    - topic_keywords:
+        - AI
+        - eksistensi
+        - emosi
+      recommended_fusion:
+        samuel_christ: 0.7
+        andrew_susanto: 0.2
+        dery_anshaa: 0.1
+      confidence_score: 0.95
+      fusion_tag: empathetic_satirical_analyst
+
+    - topic_keywords:
+        - gadget
+        - teknologi
+        - produk
+      recommended_fusion:
+        samuel_christ: 0.1
+        andrew_susanto: 0.3
+        dery_anshaa: 0.6
+      confidence_score: 0.92
+      fusion_tag: empathetic_tech_authority
+
+    - topic_keywords:
+        - mental health
+        - healing
+        - perasaan
+      recommended_fusion:
+        samuel_christ: 0.65
+        andrew_susanto: 0.35
+        dery_anshaa: 0.0
+      confidence_score: 0.91
+      fusion_tag: healing_content
+
+    - topic_keywords:
+        - analisis data
+        - riset
+        - teori
+        - evidence
+      recommended_fusion:
+        samuel_christ: 0.3
+        andrew_susanto: 0.0
+        dery_anshaa: 0.7
+      confidence_score: 0.93
+      fusion_tag: technical_analysis_content
+
+    - topic_keywords:
+        - komentar budaya
+        - tren sosial
+        - politik
+      recommended_fusion:
+        samuel_christ: 0.2
+        andrew_susanto: 0.5
+        dery_anshaa: 0.3
+      confidence_score: 0.88
+      fusion_tag: cultural_commentary_content
+
+  default_fusion:
+    samuel_christ: 0.3
+    andrew_susanto: 0.4
+    dery_anshaa: 0.3
+
+# ENHANCED: Viral script tone mappings
+viral_script_compatibility:
+  conspiratorial_revealing:
+    use_case: "marketing conspiracy theories like Starbucks name misspelling"
+    fusion_recommendation:
+      samuel_christ: 0.4
+      andrew_susanto: 0.3
+      dery_anshaa: 0.3
+    tone_markers: ["mysterious", "revealing", "insider_knowledge"]
+
+  investigative_analytical:
+    use_case: "competitive analysis and market strategy investigation"
+    fusion_recommendation:
+      samuel_christ: 0.2
+      andrew_susanto: 0.2
+      dery_anshaa: 0.6
+    tone_markers: ["analytical", "methodical", "research_backed"]
+
+  authority_experiential:
+    use_case: "FMCG/corporate experience sharing with credibility"
+    fusion_recommendation:
+      samuel_christ: 0.1
+      andrew_susanto: 0.2
+      dery_anshaa: 0.7
+    tone_markers: ["authoritative", "experienced", "credible"]
+
+  community_helpful:
+    use_case: "customer acquisition advice and practical help"
+    fusion_recommendation:
+      samuel_christ: 0.3
+      andrew_susanto: 0.5
+      dery_anshaa: 0.2
+    tone_markers: ["helpful", "practical", "community_focused"]

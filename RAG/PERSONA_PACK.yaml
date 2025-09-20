@@ -1,0 +1,353 @@
+version: "1.0.0"
+
+# Primary creator persona definitions with viral script compatibility
+
+personas:
+  samuel_christ: &samuel_christ
+    persona_signal: samuel_christ_creator
+    authority_props_presets:
+      comedy:
+        - microphone
+        - stage_backdrop
+      tech:
+        - smartphone
+        - headphones
+    lexicon:
+      catchphrases:
+        - gila banget
+        - ngakak banget
+        - keren abis
+      slang:
+        - gue
+        - elu
+        - kalian
+    code_switch_ratio:
+      indonesian: 0.7
+      english: 0.3
+    cultural_guardrails:
+      - avoid_personal_attacks
+      - maintain_empathetic_humor
+      - respect_religious_sentiments
+
+  # ENHANCED: Andrew Susanto persona with viral script compatibility
+  andrew_susanto: &andrew_susanto
+    persona_signal: andrew_susanto_creator
+    authority_props_presets:
+      business:
+        - blazer
+        - laptop
+        - whiteboard
+      instagram:
+        - smartphone
+        - ring_light
+        - carousel_props
+      # NEW: Viral script authority props
+      corporate_experience:
+        - office_backdrop
+        - business_presentation
+        - case_study_materials
+    lexicon:
+      catchphrases:
+        - bisnis itu simple
+        - mindset dulu
+        - action beats perfection
+      slang:
+        - gue
+        - lo
+        - guys
+      business_terms:
+        - cash flow
+        - margin
+        - conversion
+        - CAC
+        - LTV
+        # NEW: Viral script business terms
+        - brand positioning
+        - competitive strategy
+        - market penetration
+        - customer acquisition
+    code_switch_ratio:
+      indonesian: 0.6
+      english: 0.4
+    cultural_guardrails:
+      - avoid_unrealistic_promises
+      - emphasize_process_over_outcomes
+      - respect_different_business_scales
+    platform_style:
+      instagram_focus: true
+      quick_hook_preference: true
+      dm_cta_affinity: high
+      carousel_awareness: true
+    # NEW: Viral script tone capabilities
+    viral_script_tones:
+      conspiratorial_revealing: moderate
+      investigative_analytical: high
+      authority_experiential: moderate
+      community_helpful: high
+
+  # ENHANCED: Dery Anshaa persona with viral script compatibility
+  dery_anshaa: &dery_anshaa
+    persona_signal: dery_anshaa_creator
+    authority_props_presets:
+      youtube_education:
+        - presentation_setup
+        - case_study_props
+        - step_by_step_visuals
+      business_analysis:
+        - charts
+        - data_visualization
+        - practical_examples
+      # NEW: Viral script authority props
+      corporate_authority:
+        - professional_backdrop
+        - industry_credentials
+        - expert_presentation_materials
+    lexicon:
+      catchphrases:
+        - mari kita breakdown
+        - step by step
+        - praktis dan aplikatif
+      slang:
+        - kita
+        - teman-teman
+        - kalian
+      business_terms:
+        - analisis
+        - strategi
+        - implementasi
+        - evaluasi
+        - optimasi
+        # NEW: Viral script business terms
+        - FMCG strategies
+        - competitive analysis
+        - retail psychology
+        - consumer behavior
+        - market research
+    code_switch_ratio:
+      indonesian: 0.8
+      english: 0.2
+    cultural_guardrails:
+      - maintain_educational_integrity
+      - provide_actionable_insights
+      - respect_learning_pace
+    platform_style:
+      youtube_long_form: true
+      case_study_approach: true
+      step_wise_explanation: true
+      practical_focus: high
+    # NEW: Viral script tone capabilities
+    viral_script_tones:
+      conspiratorial_revealing: low
+      investigative_analytical: very_high
+      authority_experiential: very_high
+      community_helpful: moderate
+
+  fallback_creator: &fallback_creator
+    persona_signal: default_gen_z_creator
+    authority_props_presets:
+      general:
+        - casual_outfit
+        - smartphone
+      business:
+        - blazer
+        - laptop
+      cooking:
+        - apron
+        - spatula
+    lexicon:
+      catchphrases:
+        - teman-teman
+        - yuk kita coba
+        - seru banget
+      slang:
+        - gue
+        - kalian
+        - dong
+      business_terms:
+        - bisnis
+        - UMKM
+        - cash flow
+        - modal
+        - untung
+    code_switch_ratio:
+      indonesian: 0.85
+      english: 0.15
+    cultural_guardrails:
+      - avoid_offensive_language
+      - respect_diverse_opinions
+      - maintain_positive_attitude
+
+# Smart creator recommendation engine now selects among the defined personas
+smart_creator_recommendation_engine:
+  profiles:
+    samuel_christ: *samuel_christ
+    andrew_susanto: *andrew_susanto
+    dery_anshaa: *dery_anshaa
+    fallback: *fallback_creator
+
+  # ENHANCED: Viral script compatibility scoring
+  viral_script_compatibility_scoring:
+    authority_establishment:
+      dery_anshaa: 0.8
+      andrew_susanto: 0.6
+      samuel_christ: 0.3
+      fallback: 0.2
+
+    comparison_analysis:
+      dery_anshaa: 0.7
+      andrew_susanto: 0.8
+      samuel_christ: 0.4
+      fallback: 0.3
+
+    pattern_recognition_education:
+      dery_anshaa: 0.9
+      andrew_susanto: 0.6
+      samuel_christ: 0.5
+      fallback: 0.4
+
+    revelation_sharing:
+      samuel_christ: 0.7
+      andrew_susanto: 0.6
+      dery_anshaa: 0.5
+      fallback: 0.4
+
+    solution_delivery:
+      andrew_susanto: 0.8
+      dery_anshaa: 0.7
+      samuel_christ: 0.5
+      fallback: 0.4
+
+    conspiracy_revealing:
+      samuel_christ: 0.6
+      andrew_susanto: 0.5
+      dery_anshaa: 0.3
+      fallback: 0.3
+
+# ENHANCED: Persona fusion bridge with viral script capabilities
+exports:
+  persona_fusion_bridge:
+    # Business-optimized base configuration
+    <<: *fallback_creator
+    
+    # Enhanced business context with viral script elements
+    business_context_boost:
+      indonesian_business_terms:
+        - UMKM
+        - cash flow
+        - working capital
+        - AR/AP (accounts receivable/payable)
+        - inventory turnover
+        - gross margin
+        - net margin
+        - CCC (cash conversion cycle)
+        - pricing psychology
+        - market penetration
+        - customer acquisition
+        - retention rate
+        - omzet
+        - laba kotor
+        - laba bersih
+        # NEW: Viral script business terms
+        - retail psychology
+        - brand positioning
+        - competitive strategy
+        - viral marketing
+        - branding psychology
+        - market blocking
+        - FMCG strategies
+        - free marketing
+        - word of mouth
+        - community marketing
+        - consumer behavior
+        - marketing conspiracy
+        - business revelation
+        - authority establishment
+      
+      platform_adaptations:
+        instagram_reels:
+          hook_duration_max: 2.5
+          cta_style: "DM/comment focused"
+          visual_sync: carousel_aware
+        youtube_shorts:
+          hook_duration_max: 3.0
+          cta_style: "subscribe + description"
+          visual_sync: quick_cuts
+        youtube_long:
+          hook_duration_max: 5.0
+          cta_style: "subscribe + lead_magnet"
+          visual_sync: educational_pacing
+
+      # NEW: Viral script tone integration
+      viral_script_tone_support:
+        conspiratorial_revealing:
+          tone_markers: ["mysterious", "insider_knowledge", "revealing"]
+          persona_bias: 
+            samuel_christ: 0.4
+            andrew_susanto: 0.3
+            dery_anshaa: 0.3
+        
+        investigative_analytical:
+          tone_markers: ["analytical", "methodical", "research_backed"]
+          persona_bias:
+            dery_anshaa: 0.6
+            andrew_susanto: 0.2
+            samuel_christ: 0.2
+        
+        authority_experiential:
+          tone_markers: ["authoritative", "experienced", "credible"]
+          persona_bias:
+            dery_anshaa: 0.7
+            andrew_susanto: 0.2
+            samuel_christ: 0.1
+        
+        community_helpful:
+          tone_markers: ["helpful", "practical", "community_focused"]
+          persona_bias:
+            andrew_susanto: 0.5
+            dery_anshaa: 0.3
+            samuel_christ: 0.2
+
+      # NEW: Viral script structure support
+      viral_script_structures:
+        numbered_countdown:
+          structure_pattern: "4→3→2→1 with personal examples"
+          optimal_persona: andrew_susanto
+          tone_requirement: "direct, challenging, educational"
+        
+        authority_framework:
+          structure_pattern: "experience + framework + examples"
+          optimal_persona: dery_anshaa
+          tone_requirement: "credible, authoritative, practical"
+        
+        conspiracy_reveal:
+          structure_pattern: "setup + question + theory + lesson"
+          optimal_persona: samuel_christ
+          tone_requirement: "conspiratorial, revealing, engaging"
+        
+        observation_analysis:
+          structure_pattern: "pattern + question + explanations"
+          optimal_persona: dery_anshaa
+          tone_requirement: "analytical, investigative, methodical"
+        
+        promise_delivery:
+          structure_pattern: "promise + validation + strategies"
+          optimal_persona: andrew_susanto
+          tone_requirement: "helpful, practical, community_focused"
+
+# System integration declarations
+system_integration:
+  consumers:
+    - STYLE_PACK.yaml#fusion_strategy
+    - ENGAGEMENT_PACK.yaml#cta_engine
+
+# Enhanced validation tags for viral script compatibility
+validation_tags:
+  - persona_consistency
+  - cultural_sensitivity
+  - code_switch_stability
+  - business_context_optimization
+  - viral_script_tone_compatibility
+  - authority_establishment_capable
+  - conspiracy_revealing_supported
+  - investigative_analytical_ready
+  - community_helpful_enabled

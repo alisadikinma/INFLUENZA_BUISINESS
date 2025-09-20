@@ -1,0 +1,602 @@
+version: "1.0.0"
+
+pattern_ref_prefix: '!RAG_ENGAGEMENT_MODULES'
+
+compiled_from:
+  - Content Strategy Framework v3.8.2
+  - Script Format Blueprint v3.8.2
+  - Viral Script Analysis Enhancement v1.0
+
+replay_logic:
+  core_mechanisms:
+    narrative_mesh_architecture:
+      concept: binding_multiple_scripts_under_one_psychographic_universe
+      implementation: narrative_mesh_id_tags_connecting_related_content
+      psychological_effect: creates_anticipation_for_next_episode_and_encourages_binge_consumption
+
+      mesh_ids:
+        series_business_mindset:
+          motif_keyword: entrepreneur_mindset_transformation
+          emotional_arc: doubt_realization_empowerment
+          episode_progression: problem_identification_mindset_shift_action_plan
+
+        series_financial_literacy:
+          motif_keyword: indonesian_financial_education
+          emotional_arc: confusion_understanding_confidence
+          episode_progression: basic_concepts_practical_application_advanced_strategies
+
+        series_umkm_growth:
+          motif_keyword: small_business_scaling_indonesia
+          emotional_arc: struggle_hope_success
+          episode_progression: challenges_solutions_implementation_results
+
+        series_cash_flow_mastery:
+          motif_keyword: cash_flow_management_umkm
+          emotional_arc: anxiety_clarity_control
+          episode_progression: problem_awareness_systematic_approach_optimization
+
+        # NEW: Viral script inspired series
+        series_marketing_psychology:
+          motif_keyword: consumer_psychology_business_tactics
+          emotional_arc: curiosity_revelation_empowerment
+          episode_progression: observation_analysis_insight_application
+
+        series_competitive_intelligence:
+          motif_keyword: business_strategy_competitive_analysis
+          emotional_arc: confusion_investigation_understanding
+          episode_progression: pattern_recognition_deep_dive_strategic_insight
+
+        series_authority_insights:
+          motif_keyword: corporate_experience_business_wisdom
+          emotional_arc: skepticism_credibility_trust
+          episode_progression: experience_establishment_framework_delivery_practical_application
+
+    memory_trigger_injection:
+      concept: strategic_placement_of_memorable_phrases_sounds_visuals
+      implementation: memory_trigger_injector_active_throughout_content
+      psychological_effect: creates_recall_triggers_that_prompt_replay_for_missed_details
+
+      trigger_types:
+        phrase_anchors: repeated_catchphrases_or_signature_expressions
+        audio_anchors: distinctive_sound_effects_or_musical_stings
+        visual_anchors: specific_gestures_expressions_or_visual_elements
+        emotional_anchors: peak_emotional_moments_that_create_lasting_impression
+        
+        # NEW: Viral script specific triggers
+        conspiracy_anchors: mysterious_tone_shifts_and_revelation_moments
+        authority_anchors: credibility_establishment_phrases_and_professional_backdrops
+        comparison_anchors: dramatic_price_or_value_comparisons
+        pattern_anchors: rule_of_three_demonstrations_and_repetitive_structures
+
+    protocol:
+      replay_trigger_active:
+        condition: replay_trigger = true
+        actions:
+          - flush_segment_memory_before_cta
+          - regenerate_cta_with_base_intent_not_hallucinated_momentum
+          - prevent_loop_hallucination_bleed
+
+      inject_memorable_elements:
+        signature_phrase: creator_specific_catchphrase
+        audio_anchor: distinctive_sound_signature
+        visual_anchor: memorable_gesture_or_expression
+        emotional_anchor: peak_emotional_moment
+        # NEW: Viral script memorable elements
+        conspiracy_anchor: revelation_moment_with_tone_shift
+        authority_anchor: credibility_establishment_with_experience_proof
+        comparison_anchor: dramatic_value_difference_presentation
+
+    episodic_cta_engine:
+      concept: ctas_that_hint_at_future_content_while_encouraging_immediate_replay
+      implementation: episodic_cta_engine_with_binge_potential_detection
+      psychological_effect: creates_anticipation_loop_and_immediate_replay_motivation
+
+      patterns:
+        cliffhanger_ctas:
+          - Tapi ada satu hal yang belum gue cerita... next episode bakal mind-blowing
+          - Plot twist terbesar masih coming up di episode selanjutnya
+          # NEW: Viral script cliffhangers
+          - Tapi ini baru nomor 3, yang terakhir paling shocking
+          - Ada satu strategi lagi yang bikin gue speechless pas tau
+
+        series_continuation:
+          - Ini baru episode 1 dari journey gue, stay tuned untuk plot twist selanjutnya
+          - Series ini bakal mengubah cara kalian lihat [topic] selamanya
+          # NEW: Viral script continuations
+          - Next video gue bakal expose 3 strategi lagi yang lebih gila
+          - Part 2: Gimana cara mereka manipulasi keputusan kalian
+
+        community_building:
+          - Drop teori kalian di comments, gue bakal bahas di episode berikutnya
+          - Share pengalaman kalian, nanti gue feature di episode mendatang
+          # NEW: Viral script community engagement
+          - Comment brand mana lagi yang pake taktik kayak gini
+          - Tag temen kalian yang masih belum sadar sama strategi ini
+
+# ENHANCED: Advanced title generation engine with viral hook integration
+title_generation_engine:
+  enabled: true
+  integration_priority: "viral_hook_alignment"
+  
+  # Hook-driven title patterns for maximum viral potential
+  hook_aligned_title_patterns:
+    authority:
+      patterns:
+        - "Aku Pernah {experience} dan Cuma Ada {number} Cara {goal}"
+        - "{years} Tahun di {industry}: Ini {number} Rahasia {topic}"
+        - "Insider {industry} Ungkap: {shocking_truth}"
+      viral_elements: ["insider_knowledge", "numbered_secrets", "authority_establishment"]
+      clickbait_score: "high"
+      educational_balance: "maintained"
+    
+    comparison:
+      patterns:
+        - "{item_a} {price_a} vs {item_b} {price_b}: {multiplier} Lebih {difference}!"
+        - "Shocking: {brand_a} Ternyata {revelation} Dibanding {brand_b}"
+        - "Kenapa {expensive_item} Mahal Banget? Ternyata {reason}"
+      viral_elements: ["price_shock", "dramatic_comparison", "revelation"]
+      clickbait_score: "very_high"
+      educational_balance: "high"
+    
+    curiosity:
+      patterns:
+        - "{business_context} Pake Trik Ini Biar Kamu {manipulation_outcome}"
+        - "Rahasia {successful_group} yang Bikin Mereka {success_outcome}"
+        - "Ini Kenapa {brand} Selalu {behavior} - Mind Blown!"
+      viral_elements: ["secret_revelation", "manipulation_exposure", "mind_blown"]
+      clickbait_score: "very_high"
+      educational_balance: "high"
+    
+    revelation:
+      patterns:
+        - "Dulu Gue Mikir {assumption}, Ternyata {shocking_truth}!"
+        - "Plot Twist: {brand_a} dan {brand_b} Ternyata {revelation}"
+        - "Gue Shock Pas Tau {discovery} - Kalian Juga Bakalan Kaget"
+      viral_elements: ["plot_twist", "personal_shock", "discovery_sharing"]
+      clickbait_score: "high"
+      educational_balance: "very_high"
+    
+    solution:
+      patterns:
+        - "Cara Dapet {goal} Tanpa {constraint} - 100% Works!"
+        - "{timeframe} Dari {starting_point} ke {end_result}: Begini Caranya"
+        - "No Modal, Big Results: {number} Strategi yang Gue Buktiin Sendiri"
+      viral_elements: ["no_cost_promise", "proven_results", "personal_testimony"]
+      clickbait_score: "high"
+      educational_balance: "very_high"
+
+  # Viral amplification elements
+  viral_amplifiers:
+    emotional_triggers:
+      - "Mind Blown"
+      - "Shocking"
+      - "Plot Twist"
+      - "Gue Speechless"
+      - "Ternyata"
+      - "Rahasia"
+    
+    urgency_creators:
+      - "Sebelum Telat"
+      - "Jangan Sampai Ketinggalan"
+      - "Yang Belum Tau Wajib Nonton"
+      - "Deadline: {timeframe}"
+    
+    social_proof:
+      - "yang Udah {number}+ Orang Buktiin"
+      - "Viral di {platform}"
+      - "Trending #{hashtag}"
+      - "Gen Z Entrepreneur Wajib Tau"
+
+  # Clickbait balance system
+  clickbait_optimization:
+    balance_threshold: 0.75  # High clickbait but maintain educational value
+    
+    allowed_clickbait_elements:
+      - numbered_lists: "3 Cara", "5 Rahasia", "7 Strategi"
+      - shock_value: "Mind Blown", "Speechless", "Gak Nyangka"
+      - exclusivity: "Rahasia", "Insider", "Yang Gak Diajariin"
+      - personal_testimony: "Gue Buktiin", "Pengalaman Gue", "Gue Shock"
+      - time_pressure: "Sebelum Telat", "Jangan Sampe Ketinggalan"
+    
+    prohibited_clickbait:
+      - false_promises: "Jadi Kaya Instant", "Dijamin Sukses"
+      - health_claims: "Obat Manjur", "Sembuh Total"
+      - get_rich_quick: "Jadi Milyuner 1 Hari"
+      - pyramid_scheme: "Passive Income Unlimited"
+
+  # Platform-specific title optimization
+  platform_adaptations:
+    instagram_reels:
+      max_characters: 100
+      emoji_usage: "moderate"
+      hashtag_integration: "minimal_in_title"
+      style_preference: "punchy_direct"
+    
+    youtube_shorts:
+      max_characters: 100
+      emoji_usage: "minimal"
+      hashtag_integration: "none_in_title"
+      style_preference: "descriptive_engaging"
+    
+    tiktok:
+      max_characters: 150
+      emoji_usage: "high"
+      hashtag_integration: "moderate_in_title"
+      style_preference: "trendy_viral"
+
+social_nudges:
+  enabled: true
+  
+  # Enhanced social nudges with viral script elements
+  examples:
+    - Lo juga ngerasain cash flow problem kan?
+    - Tim bootstrap vs Tim modal besar—kamu di kubu mana?
+    - Kalau di posisi entrepreneur baru, pilih strategi mana?
+    - Siapa yang pernah gagal di bisnis pertama? (Normal kok!)
+    # NEW: Viral script inspired nudges
+    - Pedro vs Charles Enquete, kalian tim mana sebelum tau mereka satu boss?
+    - Siapa yang pernah di-manipulasi sama taktik supermarket ini?
+    - Kalian juga sering salah ditulis nama di Starbucks kan?
+    - FMCG vs startup, pengalaman mana yang lebih valuable?
+
+# ENHANCED: Caption CTA Engine with platform-specific optimization
+caption_cta_engine:
+  enabled: true
+  integration_with: ["hook_archetype", "persona_style", "platform_type"]
+  
+  # Hook-aligned caption strategies
+  hook_aligned_captions:
+    authority:
+      opening_patterns:
+        - "Jadi ceritanya, waktu gue masih kerja di {company_context}..."
+        - "Dari pengalaman {years} tahun di industri {industry}..."
+        - "Story time: Dulu pas gue di {authority_context}..."
+      
+      credibility_builders:
+        - "Gue udah lihat langsung gimana {industry_insight}"
+        - "Trust me, setelah handle {experience_scope}, gue tau persis"
+        - "Based on real experience, bukan teori doang"
+      
+      cta_patterns:
+        - "Drop pengalaman kalian di industri yang sama!"
+        - "Sharing is caring - tag yang butuh insight ini"
+        - "Follow buat more insider knowledge dari industri lain"
+    
+    comparison:
+      shock_amplifiers:
+        - "Plot twist yang bikin gue speechless..."
+        - "Gue sampe ngecek berkali-kali karena gak percaya"
+        - "Mind = blown pas gue tau perbandingan ini"
+      
+      value_explanation:
+        - "Ini kenapa beda harga segitu ekstrem:"
+        - "Ternyata yang bikin mahal itu bukan yang lo kira"
+        - "Here's the tea behind the pricing strategy"
+      
+      cta_patterns:
+        - "Comment brand lain yang punya strategy pricing gila"
+        - "Tag yang masih belum sadar sama price manipulation"
+        - "Share ke yang suka complain harga mahal tanpa tau reason"
+    
+    curiosity:
+      mystery_builders:
+        - "Kalian pernah notice gak sih..."
+        - "Ada yang aneh dari pattern ini, dan ternyata..."
+        - "Plot twist: yang kalian kira kebetulan, ternyata..."
+      
+      revelation_moments:
+        - "TEA TIME: Ini dia rahasianya"
+        - "Exposed: Ternyata ini semua calculated moves"
+        - "The truth behind {business_pattern}"
+      
+      cta_patterns:
+        - "Comment teori konspirasi bisnis kalian!"
+        - "Tag yang masih naive sama business tactics"
+        - "Drop brand lain yang pake manipulation serupa"
+    
+    solution:
+      problem_acknowledgment:
+        - "Gue tau rasanya struggle sama {problem}"
+        - "Pernah gak sih kalian frustrated karena {challenge}?"
+        - "Real talk: {problem} emang bikin stress"
+      
+      solution_delivery:
+        - "Tapi tenang, ada cara yang gue udah test drive sendiri"
+        - "Here's the game changer yang gue discovered"
+        - "Strategi ini literally saved my ass dulu"
+      
+      cta_patterns:
+        - "Try this method and let me know hasilnya!"
+        - "Comment success story kalian pake cara ini"
+        - "DM 'SOLVED' kalau method ini works buat kalian"
+
+  # Platform-specific caption optimization
+  platform_optimizations:
+    instagram_reels:
+      max_characters: 2200
+      paragraph_breaks: "frequent_for_readability"
+      emoji_usage: "moderate_strategic"
+      hashtag_placement: "end_of_caption"
+      hook_timing: "first_paragraph_crucial"
+      cta_placement: "mid_and_end_caption"
+      engagement_boosters:
+        - "Double tap if you relate"
+        - "Save this for later reference"
+        - "Share to your story if this helped"
+    
+    youtube_shorts:
+      max_characters: 5000
+      paragraph_breaks: "structured_logical"
+      emoji_usage: "minimal_professional"
+      hashtag_placement: "minimal_at_end"
+      hook_timing: "first_two_sentences"
+      cta_placement: "end_caption_strong"
+      engagement_boosters:
+        - "Subscribe for more business insights"
+        - "Like if this changed your perspective"
+        - "Comment your experience below"
+    
+    tiktok:
+      max_characters: 2200
+      paragraph_breaks: "short_punchy"
+      emoji_usage: "high_trendy"
+      hashtag_placement: "integrated_throughout"
+      hook_timing: "immediate_first_line"
+      cta_placement: "multiple_throughout"
+      engagement_boosters:
+        - "Duet this with your response"
+        - "Stitch if you have similar experience"
+        - "FYP do your thing"
+
+  # Viral engagement amplifiers
+  viral_amplifiers:
+    community_building:
+      - "Entrepreneur Gen Z, assemble! 💪"
+      - "Who else building empire dari kamar kos?"
+      - "UMKM warriors, drop your biggest challenge"
+    
+    controversy_starters:
+      - "Unpopular opinion: {controversial_statement}"
+      - "Hot take yang mungkin bikin triggered: {opinion}"
+      - "Debatable: {statement}. Setuju gak?"
+    
+    social_proof_builders:
+      - "5000+ entrepreneurs udah apply strategy ini"
+      - "Method yang udah viral di entrepreneur TikTok"
+      - "Tactic yang lagi trending di business community"
+
+  # CTA performance optimization
+  cta_performance_system:
+    high_converting_ctas:
+      instagram:
+        - "DM 'BUSINESS' for detailed breakdown"
+        - "Comment 'INTERESTED' for more info"
+        - "Save + Share if this helped you"
+        - "Tag 3 entrepreneur friends"
+      
+      youtube:
+        - "Subscribe + Bell icon for business content"
+        - "Like if you learned something new"
+        - "Comment your biggest business challenge"
+        - "Check description for free resources"
+      
+      tiktok:
+        - "Follow for daily business tips"
+        - "Duet with your business struggle"
+        - "Comment 'TUTORIAL' for step-by-step"
+        - "Share to help other entrepreneurs"
+    
+    engagement_multipliers:
+      question_starters:
+        - "What's your experience with {topic}?"
+        - "Anyone else notice this pattern?"
+        - "Am I the only one who thinks {opinion}?"
+      
+      action_triggers:
+        - "Try this and report back"
+        - "Implement today, thank me later"
+        - "Screenshot this for reference"
+        - "Take notes, this is important"
+
+# ENHANCED: Variant manager with viral script compatibility
+variant_manager:
+  # Enhanced variant generation strategy with viral script archetypes
+  variant_generation_strategy:
+    sources:
+      - "HOOK_PACK.yaml#exports.hook_pool_ref"
+    
+    generation_methods:
+      archetype_rotation: cycle_through_different_hook_archetypes_including_viral_patterns
+      template_substitution: fill_templates_with_contextual_variables
+      platform_optimization: adapt_hooks_for_platform_constraints
+      a_b_permutation: create_multiple_variants_per_base_hook
+      # NEW: Viral script specific methods
+      viral_script_adaptation: adapt_hooks_to_match_viral_script_patterns
+      authority_establishment_variants: create_credibility_focused_alternatives
+      conspiracy_revelation_variants: develop_mystery_and_reveal_alternatives
+      comparison_shock_variants: generate_dramatic_comparison_alternatives
+
+  # Enhanced variant scoring rubric with viral script metrics
+  variant_scoring_rubric:
+    - metric: "retention_pred"
+      weight: 0.25
+      calculation: based_on_hook_archetype_performance_history_including_viral_patterns
+    
+    - metric: "clarity"
+      weight: 0.20
+      calculation: language_complexity_and_comprehension_score
+    
+    - metric: "business_specificity"
+      weight: 0.20
+      calculation: relevance_to_indonesian_business_context
+    
+    - metric: "platform_fit"
+      weight: 0.15
+      calculation: adherence_to_platform_timing_and_format_constraints
+    
+    # NEW: Viral script specific metrics
+    - metric: "viral_script_compatibility"
+      weight: 0.10
+      calculation: similarity_to_proven_viral_script_patterns
+    
+    - metric: "authority_establishment"
+      weight: 0.05
+      calculation: effectiveness_of_credibility_building
+    
+    - metric: "conspiracy_intrigue"
+      weight: 0.05
+      calculation: mystery_and_revelation_potential
+
+  # Enhanced replay max fusion sync for viral script A/B testing
+  replaymax_fusion_sync: true
+  
+  viral_script_a_b_testing_framework:
+    enabled: true
+    variant_generation: automatic_with_viral_script_patterns
+    performance_tracking:
+      - engagement_rate
+      - completion_rate
+      - comment_quality
+      - share_rate
+      - replay_frequency
+      # NEW: Viral script specific tracking
+      - conspiracy_engagement_rate
+      - authority_trust_building
+      - comparison_shock_effectiveness
+      - pattern_recognition_education_success
+    
+    winner_selection:
+      criteria: composite_score_from_enhanced_scoring_rubric
+      minimum_sample_size: 100_interactions
+      confidence_threshold: 0.85
+    
+    # NEW: Viral script pattern testing
+    viral_pattern_testing:
+      authority_vs_conspiracy: test_credibility_vs_mystery_approaches
+      comparison_vs_revelation: test_shock_value_vs_discovery_narratives
+      pattern_vs_solution: test_education_vs_practical_delivery
+
+core_principles:
+  community_onboarding_system:
+    activation_trigger: content_addressing_serious_issues_mental_health_ai_ethics_business_failures
+    purpose: direct_audience_toward_community_support_rather_than_simple_follow_subscribe
+    implementation: community_onboarding_cta_automatically_activated_for_sensitive_content
+
+    characteristics:
+      - support_focused_emphasizes_mutual_aid_and_shared_experience
+      - safe_space_creation_establishes_emotional_safety_and_acceptance
+      - collective_healing_encourages_community_based_growth_and_recovery
+      - resource_sharing_provides_access_to_helpful_tools_and_information
+      # NEW: Business failure support
+      - entrepreneur_support_community_for_business_failures_and_learning
+
+    examples:
+      - Join our support community di link bio - kita healing bareng-bareng
+      - Share pengalaman kalian di comments, kita support satu sama lain
+      - Community kita always here untuk yang butuh safe space untuk curhat
+      # NEW: Business support examples
+      - Join entrepreneur support group di bio untuk sharing failure stories
+      - Community kita ada buat yang pernah gagal bisnis, sharing experience yuk
+      - Drop di comments struggle bisnis kalian, kita solve bareng
+
+viral_policy:
+  default_mode: normal
+
+  switch_rules:
+    limits:
+      aggressive_mode:
+        max_segments: 1
+        require_guardrail_pass: true
+
+    trigger_aggressive_if:
+      - replay_potential > 0.8
+      - controversy_score > 0.7
+      - engagement_prediction > 0.9
+      # NEW: Viral script triggers
+      - conspiracy_intrigue_score > 0.8
+      - authority_establishment_needed > 0.7
+      - comparison_shock_potential > 0.8
+
+  # Enhanced business-specific viral triggers with viral script patterns
+  business_viral_triggers:
+    financial_education_content: moderate_viral_boost
+    success_story_content: high_viral_potential
+    mistake_prevention_content: educational_viral_approach
+    mindset_transformation_content: emotional_viral_strategy
+    # NEW: Viral script business triggers
+    marketing_psychology_content: conspiracy_viral_approach
+    competitive_strategy_content: investigative_viral_approach
+    authority_establishment_content: credibility_viral_approach
+    comparison_analysis_content: shock_viral_approach
+    pattern_recognition_content: educational_viral_approach
+
+auto_segment_split:
+  enabled: true
+  concept: creates_segments_60_tokens_or_less_for_optimal_visual_rendering
+  purpose: ensures_kling_sora_visual_sync_stability_while_maintaining_replay_value
+  implementation: post_structure_segmentation_in_writer_engine
+
+  criteria:
+    max_tokens: 60
+    emotional_coherence: maintained
+    visual_sync: optimized
+    replay_value: enhanced
+    memory_anchor: embedded
+    # NEW: Viral script criteria
+    authority_statement_preservation: maintained
+    conspiracy_buildup_flow: preserved
+    comparison_impact_timing: optimized
+
+  benefits:
+    - visual_coherence_each_segment_maintains_consistent_visual_narrative
+    - replay_precision_viewers_can_replay_specific_insight_segments
+    - memory_anchoring_shorter_segments_create_more_memorable_chunks
+    - platform_optimization_ideal_for_social_media_algorithm_preferences
+    # NEW: Viral script benefits
+    - authority_impact_credibility_statements_get_dedicated_segment_focus
+    - conspiracy_buildup_mystery_elements_maintain_proper_pacing
+    - comparison_shock_dramatic_revelations_receive_optimal_timing
+
+replay_triggers:
+  visual_triggers:
+    - fast_paced_visual_elements_quick_cuts_rapid_information_display
+    - hidden_visual_details_background_elements_subtle_visual_cues
+    - expression_nuances_facial_expressions_gestures_revealing_additional_meaning
+    - text_overlay_density_information_rich_overlays_requiring_multiple_viewings
+    # NEW: Viral script visual triggers
+    - authority_props_professional_backdrops_credibility_establishing_visuals
+    - comparison_visuals_dramatic_price_value_difference_presentations
+    - conspiracy_atmosphere_mysterious_lighting_and_tone_shifts
+
+  audio_triggers:
+    - layered_audio_design_multiple_audio_elements_apparent_on_replay
+    - subtle_sound_effects_background_audio_enhancing_understanding
+    - vocal_nuances_tone_changes_emphasis_revealing_additional_meaning
+    - musical_progression_background_music_supporting_emotional_journey
+    # NEW: Viral script audio triggers
+    - authority_tone_shifts_credibility_establishment_vocal_patterns
+    - conspiracy_whispers_mysterious_tone_for_revelation_moments
+    - comparison_emphasis_dramatic_vocal_highlights_for_shock_value
+
+  content_triggers:
+    - information_density_rich_content_rewarding_careful_attention_and_replay
+    - emotional_complexity_layered_emotional_expression_deepening_with_familiarity
+    - cultural_references_indonesian_cultural_elements_resonating_more_deeply
+    - personal_connection_relatable_content_applying_differently_to_evolving_situation
+    # NEW: Viral script content triggers
+    - authority_credibility_layers_experience_details_revealing_more_on_replay
+    - conspiracy_clue_layering_subtle_hints_building_case_over_multiple_views
+    - comparison_value_analysis_deeper_understanding_of_pricing_psychology
+    - pattern_recognition_educational_layers_business_principles_unfolding
+
+success_metrics:
+  replay_rate: percentage_of_viewers_who_watch_content_multiple_times
+  replay_depth: average_number_of_replays_per_engaged_viewer
+  segment_replay: which_specific_segments_generate_most_replay_activity
+  community_engagement: discussion_and_theory_building_in_comments
+  series_progression: viewer_advancement_through_episodic_content
+  # NEW: Viral script success metrics
+  conspiracy_engagement: viewer_participation_in_theory_building_discussions
+  authority_trust_building: progression_from_skepticism_to_credibility_acceptance
+  comparison_education: understanding_depth_of_value_analysis_concepts
+  pattern_recognition_learning: application_of_business_principles_in_comments

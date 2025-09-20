@@ -1,0 +1,464 @@
+version: "1.0.0"
+
+pattern_ref_prefix: '!RAG_RUNTIME_SAFEGUARD'
+
+compiled_from:
+  - Legacy safeguard protocols
+  - Cultural sensitivity enhancements
+  - Viral Script Compatibility Enhancement v1.0
+
+module_registration:
+  id: runtime_safeguard
+  role: prevention_engine
+  activated_by:
+    - hallucination_block
+    - flush_protocol
+
+  registered_modules:
+    - originality_guard
+    - structure_language_enforcer
+
+ruleset:
+  hallucination_block:
+    enabled: true
+    trigger_keywords:
+      - quantum time travel
+      - psychic future self
+
+    visual_constraints:
+      forbidden_visual_elements:
+        - two characters interacting physically
+        - high-five
+        - handshake
+        - hug
+        - fine object manipulation
+        - pick up coin
+        - text on screen clearly legible
+        - typing on keyboard close-up
+        - extended continuous movement
+        - over 10s continuous camera shot
+
+    visual_guard_enforced: true
+    on_violation:
+      - Regenerate prompt with safe fallback
+      - 'Notify user: prompt violated KlingAI constraints'
+
+# ENHANCED: Fact verification with viral script business claim handling
+enhanced_fact_verification:
+  enabled: true
+  on_hoax: fallback_override_handler
+  on_uncertain: proceed_with_disclaimer
+
+  # Streamlined business fact handling for viral education content
+  business_fact_handling:
+    viral_business_claims:
+      enforcement: "educational_examples_with_context"
+      required_language: ["contoh", "ilustrasi", "berdasarkan pengalaman", "hasil bisa bervariasi"]
+      prohibited_language: ["dijamin", "pasti untung", "selalu berhasil", "rahasia pasti"]
+      disclaimer_requirement: "mandatory_for_all_financial_metrics"
+
+    # Consolidated viral script claim handling
+    viral_education_claims:
+      conspiracy_style_content:
+        enforcement: "educational_analysis_not_definitive_accusations"
+        required_language: ["kemungkinan", "analisis menunjukkan", "bisa jadi", "berdasarkan observasi"]
+        prohibited_language: ["pasti sengaja", "terbukti manipulasi", "rahasia terlarang"]
+        balance_requirement: "provide_alternative_explanations_mandatory"
+      
+      authority_establishment:
+        enforcement: "personal_experience_framing_only"
+        safe_framing: ["berdasarkan pengalaman", "insight dari industri", "yang pernah gue alami"]
+        prohibited_claims: ["confidential_company_information", "insider_trading_info"]
+        focus: "general_business_principles_not_company_secrets"
+      
+      competitive_analysis:
+        enforcement: "public_information_based_observation"
+        verification_requirement: "publicly_available_data_only"
+        speculation_handling: "frame_as_pattern_observation_not_fact"
+        disclaimer: "berdasarkan informasi publik yang tersedia"
+
+  outputs:
+    verification_status_with_confidence_score: ${status_label} (${confidence}/100)
+    fact_verification_score: ${confidence}
+
+enhanced_verification_integration:
+  module_dependencies:
+    blocks_if_hoax:
+      - rag_deep_research_engine
+      - rag_core_modules
+      - script_generation
+
+    proceeds_if_verified: all_downstream_modules
+    proceeds_with_disclaimer: all_downstream_modules_with_uncertainty_flag
+
+  handoff_protocols:
+    to_research_engine: verified_content_becomes_research_foundation
+    to_script_generation: verification_status_included_in_final_output
+    to_user_interaction: transparent_verification_process_communication
+
+  validation_tags:
+    - enhanced_fact_verification_active
+    - hoax_detection_enabled
+    - multi_source_verification_required
+    - user_education_on_hoax_enabled
+    - business_claim_softening_active
+    - viral_script_claim_verification_enabled
+
+TOPIC_VALIDATOR:
+  input_fields:
+    - title
+    - HOOK
+
+  ambiguity_threshold: 0.75
+  action_if_ambiguous: fallback_to_default_fusion
+  log_action: true
+
+fallback_override_handler:
+# Streamlined triggers for viral business content
+triggers:
+structure_violation: regenerate_once
+hallucination: educational_correction
+viral_content_unbalanced: add_educational_balance_and_alternatives
+authority_claim_unverified: soften_to_personal_experience
+low_confidence: add_disclaimer
+style_clash: recompute_style_weights
+
+# Optimized priority order
+  priority_order:
+  - structure_violation
+- hallucination
+- viral_content_unbalanced
+- authority_claim_unverified
+- low_confidence
+- style_clash
+
+# Optimized originality guard for viral business education
+originality_guard:
+  enabled: true
+  similarity_threshold: 0.55  # Strict threshold for viral content uniqueness
+  on_trigger: auto_regenerate_with_variation
+
+  # Streamlined originality checks
+  checks:
+    - content_similarity:
+        ngram_overlap_max: 0.12
+        phrase_reuse_limit: 1
+        history_window: 50
+
+    - creator_signature_avoidance:
+        blocked_catchphrases: ["gila banget", "bisnis itu simple", "mari kita breakdown"]
+        enforcement: strict_avoidance
+
+    - viral_pattern_uniqueness:
+        avoid_exact_copies: true
+        maintain_archetype_variety: true
+        preserve_educational_value: true
+
+  regenerate_policy:
+    constraints:
+      - preserve_verified_facts
+      - vary_examples_and_angles
+      - maintain_educational_focus
+      - ensure_viral_potential
+    max_attempts: 2
+
+# Social content validation system
+social_content_validator:
+  enabled: true
+  
+  # Title validation rules
+  title_validation:
+    hook_alignment_check:
+      requirement: "title_must_match_hook_archetype"
+      enforcement: "regenerate_if_mismatch_detected"
+      threshold: "minimum_0.7_alignment_score"
+    
+    clickbait_balance:
+      allowed_clickbait_level: "high_but_not_misleading"
+      prohibited_elements: ["false_promises", "health_claims", "get_rich_quick"]
+      educational_balance_required: true
+      compliance_check: "mandatory_before_output"
+    
+    platform_optimization:
+      character_limits_enforced: true
+      emoji_usage_validated: true
+      hashtag_integration_checked: true
+  
+  # Caption validation rules
+  caption_validation:
+    cta_effectiveness_check:
+      requirement: "minimum_1_strong_cta_per_caption"
+      platform_specific_optimization: "mandatory"
+      engagement_potential_threshold: "medium_or_higher"
+    
+    educational_value_maintenance:
+      requirement: "maintain_educational_focus_despite_viral_elements"
+      conspiracy_balance: "provide_alternative_explanations"
+      authority_claims: "frame_as_personal_experience"
+    
+    platform_compliance:
+      character_limits_respected: true
+      platform_specific_features_utilized: true
+      appropriate_tone_for_platform: true
+  
+  # Hashtag validation rules
+  hashtag_validation:
+    compliance_enforcement:
+      banned_hashtags_avoided: true
+      educational_hashtags_included: "minimum_2_required"
+      viral_educational_balance: "0.6_educational_0.4_viral"
+    
+    performance_optimization:
+      tier_distribution_followed: true
+      platform_specific_selection: true
+      hook_alignment_maintained: true
+    
+    spam_prevention:
+      hashtag_stuffing_avoided: true
+      relevant_hashtags_only: true
+      authentic_voice_maintained: true
+
+# ENHANCED: Structure language enforcer with viral script platform formats
+structure_language_enforcer:
+  enabled: true
+  enforce_cinegenix_format: true
+  forbid_yaml_output: true
+
+  allow_script_lang:
+    - ID
+
+  # Enhanced platform-specific structure requirements with viral script patterns
+  platform_structure_requirements:
+    instagram_reels:
+      max_duration: "15s"
+      structure_pattern: "HOOK(≤2.5s) → WHY(≤3s) → WHAT(≤4s) → CTA(≤2s)"
+      required_fields_in_order:
+        - Title
+        - ⏱️ (0-15s)
+        - 🎥
+        - 🎙️
+        - 😲
+        - 🎬
+      # NEW: Viral script adaptations for IG Reels
+      viral_script_adaptations:
+        authority_establishment: "compress_experience_to_2s_maximum"
+        conspiracy_revealing: "quick_mystery_setup_immediate_hook"
+        comparison_shock: "dramatic_price_difference_visual_emphasis"
+
+    youtube_shorts:
+      max_duration: "60s"
+      structure_pattern: "HOOK(≤3s) → CONTEXT(≤8s) → MAIN(≤40s) → CTA(≤5s)"
+      required_fields_in_order:
+        - Title
+        - ⏱️ (0-60s)
+        - 🎥
+        - 🎙️
+        - 😲
+        - 🎬
+      # NEW: Viral script adaptations for YT Shorts
+      viral_script_adaptations:
+        numbered_countdown: "4_3_2_1_structure_with_examples"
+        pattern_recognition: "rule_of_three_demonstration_with_explanation"
+        revelation_sharing: "personal_discovery_narrative_with_insight"
+
+    youtube_long:
+      max_duration: "600s"
+      structure_pattern: "HOOK(≤5s) → CONTEXT(≤30s) → FRAMEWORK(≤300s) → STEPS(≤240s) → CTA(≤25s)"
+      required_fields_in_order:
+        - Title
+        - ⏱️ (0-600s)
+        - 🎥
+        - 🎙️
+        - 😲
+        - 🎬
+      # NEW: Viral script adaptations for YT Long
+      viral_script_adaptations:
+        authority_framework: "experience_establishment_plus_detailed_framework_plus_examples"
+        observation_analysis: "pattern_identification_multiple_explanations_research_backing"
+        promise_delivery: "promise_validation_detailed_strategies_community_examples"
+
+  require_fields_in_order:
+    - Title
+    - ⏱️
+    - 🎥
+    - 🎙️
+    - 😲
+    - 🎬
+
+  microblock_id_regex: \\*ID:[^*]+\\*
+
+  map_emoji_to_fields:
+    ⏱️: timestamp_range
+    🎥: visual_direction
+    🎙️: script
+    😲: emotional_label
+    🎬: scene_transition
+
+  on_violation: regenerate_once
+
+  # NEW: Viral script structure validation
+  viral_script_structure_validation:
+    validate_countdown_progression: ensure_4_3_2_1_logical_flow
+    validate_authority_establishment: verify_experience_credibility_framework_flow
+    validate_conspiracy_buildup: ensure_mystery_revelation_educational_balance
+    validate_comparison_impact: verify_dramatic_difference_explanation_flow
+    validate_pattern_demonstration: ensure_example_explanation_application_flow
+
+# Enhanced validation tags for complete viral business system
+validation_tags:
+  - enhanced_fact_verification_active
+  - hoax_detection_enabled
+  - multi_source_verification_required
+  - user_education_on_hoax_enabled
+  - business_claim_softening_active
+  - viral_script_claim_verification_enabled
+  - title_hook_alignment_validated
+  - caption_cta_optimization_enabled
+  - hashtag_compliance_enforced
+  - social_amplification_ready
+  - platform_optimization_validated
+  - clickbait_balance_maintained
+  - educational_value_prioritized
+
+validators:
+  enhanced_fact_verification:
+    enabled: true
+    on_hoax: fallback_override_handler
+    on_uncertain: proceed_with_disclaimer
+    outputs:
+      verification_status_with_confidence_score: ${status_label} (${confidence}/100)
+      fact_verification_score: ${confidence}
+
+  originality_guard:
+    enabled: true
+    similarity_threshold: 0.60  # Enhanced threshold
+    on_trigger: auto_regenerate_with_variation
+    checks:
+      - ngram_overlap:
+          n: 5
+          max_ratio: 0.15
+      - phrase_reuse_limit:
+          max_reused_phrases: 1
+      - internal_history_compare:
+          window: 100
+      - viral_script_pattern_blocking: strict_avoidance_with_template_adaptation  # NEW
+    outputs:
+      originality_score: ${originality_score}
+    regenerate_policy:
+      constraints:
+        - preserve_verified_facts
+        - keep_structure_but_change_wording_examples_angles
+        - vary_hook_angle_or_cta_wording
+        - avoid_creator_signature_phrases
+        - avoid_direct_viral_script_copying
+        - maintain_archetype_while_varying_expression
+      max_attempts: 3
+
+  social_content_validator:
+    enabled: true
+    title_validation:
+      hook_alignment_check: mandatory
+      clickbait_balance: enforced
+      platform_optimization: required
+    caption_validation:
+      cta_effectiveness_check: mandatory
+      educational_value_maintenance: enforced
+      platform_compliance: required
+    hashtag_validation:
+      compliance_enforcement: strict
+      performance_optimization: enabled
+      spam_prevention: enforced
+
+  structure_language_enforcer:
+    enabled: true
+    enforce_cinegenix_format: true
+    forbid_yaml_output: true
+    allow_script_lang:
+      - ID
+    require_fields_in_order:
+      - Title
+      - ⏱️
+      - 🎥
+      - 🎙️
+      - 😲
+      - 🎬
+    microblock_id_regex: \\*ID:[^*]+\\*
+    map_emoji_to_fields:
+      ⏱️: timestamp_range
+      🎥: visual_direction
+      🎙️: script
+      😲: emotional_label
+      🎬: scene_transition
+    on_violation: regenerate_once
+    viral_script_structure_validation: enabled  # NEW
+
+format_contracts:
+  cinegenix_format:
+    enabled: true
+    enforce_cinegenix_format: true
+    forbid_yaml_output: true
+    allow_script_lang:
+      - ID
+    require_fields_in_order:
+      - Title
+      - ⏱️
+      - 🎥
+      - 🎙️
+      - 😲
+      - 🎬
+    microblock_id_regex: \\*ID:[^*]+\\*
+    map_emoji_to_fields:
+      ⏱️: timestamp_range
+      🎥: visual_direction
+      🎙️: script
+      😲: emotional_label
+      🎬: scene_transition
+    on_violation: regenerate_once
+
+safety_contracts:
+  topic_validator:
+    input_fields:
+      - title
+      - HOOK
+    ambiguity_threshold: 0.75
+    action_if_ambiguous: fallback_to_default_fusion
+    log_action: true
+
+  hallucination_block:
+    enabled: true
+    trigger_keywords:
+      - quantum time travel
+      - psychic future self
+    visual_constraints:
+      forbidden_visual_elements:
+        - two characters interacting physically
+        - high-five
+        - handshake
+        - hug
+        - fine object manipulation
+        - pick up coin
+        - text on screen clearly legible
+        - typing on keyboard close-up
+        - extended continuous movement
+        - over 10s continuous camera shot
+    visual_guard_enforced: true
+    on_violation:
+      - Regenerate prompt with safe fallback
+      - 'Notify user: prompt violated KlingAI constraints'
+
+  # NEW: Viral script safety contracts
+  viral_script_safety:
+    conspiracy_theory_balance:
+      requirement: maintain_educational_value_over_sensationalism
+      enforcement: require_alternative_explanations_and_disclaimers
+      prohibited: harmful_misinformation_or_unfounded_accusations
+    
+    authority_claim_verification:
+      requirement: verify_or_soften_corporate_experience_claims
+      enforcement: frame_as_personal_experience_not_insider_information
+      prohibited: confidential_company_information_or_unverified_credentials
+    
+    competitive_analysis_responsibility:
+      requirement: base_analysis_on_publicly_available_information
+      enforcement: frame_observations_as_analysis_not_definitive_fact
+      prohibited: unverified_business_relationship_claims_or_insider_accusations

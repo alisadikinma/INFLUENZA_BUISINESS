@@ -1,0 +1,235 @@
+version: "1.0.0"
+pattern_ref_prefix: "!RAG_HOOKS"
+
+# OPTIMIZED HOOK PACK - 25 High-Performance Viral Business Hooks
+# Focused on proven viral patterns for Indonesian Gen Z entrepreneurs
+
+hook_library:
+  domain: "business_id"
+  tags: ["bisnis_ID", "viral_education", "gen_z_entrepreneurs", "indonesian_business"]
+  
+  # High-performance hooks only (removed low-performing patterns)
+  hooks:
+    # TIER 1: Viral Script Optimized Hooks (Highest Performance)
+    - id: "H001"
+      archetype: "curiosity"
+      template: "Ini yang bikin {target_business} {positive_outcome} tanpa {common_constraint}"
+      tags: ["viral_education", "solution_focused", "reels<=3s"]
+      guidance:
+        platform_fit: ["IG", "YT"]
+        length_sec_max: 3.0
+        tone: "helpful, intriguing"
+        viral_potential: "very_high"
+        notes: "focus on practical solutions"
+      example_fill:
+        target_business: "UMKM"
+        positive_outcome: "laris manis"
+        common_constraint: "modal gede"
+
+    - id: "H002"
+      archetype: "curiosity"
+      template: "Ini cara {business_context} agar {manipulation_outcome}"
+      tags: ["viral_education", "business_psychology", "reels<=3s"]
+      guidance:
+        platform_fit: ["IG", "YT"]
+        length_sec_max: 3.0
+        tone: "revealing, educational"
+        viral_potential: "very_high"
+        notes: "reveal business tactics with educational value"
+      example_fill:
+        business_context: "supermarket"
+        manipulation_outcome: "kamu belanja lebih banyak"
+
+    - id: "H003"
+      archetype: "curiosity"
+      template: "Setiap kali {brand_a} {action}, pasti ada {brand_b} yang {reaction}"
+      tags: ["viral_education", "competitive_analysis", "reels<=4s"]
+      guidance:
+        platform_fit: ["IG", "YT"]
+        length_sec_max: 4.0
+        tone: "analytical, investigative"
+        viral_potential: "high"
+        notes: "analyze competitive patterns"
+      example_fill:
+        brand_a: "Indomaret"
+        action: "buka"
+        brand_b: "supermarket lain"
+        reaction: "buka di dekatnya"
+
+    - id: "H004"
+      archetype: "curiosity"
+      template: "Kalian tau kan, setiap kali {customer_behavior}, {business_response}"
+      tags: ["viral_education", "conspiracy_style", "reels<=4s"]
+      guidance:
+        platform_fit: ["IG", "YT"]
+        length_sec_max: 4.0
+        tone: "conspiratorial, revealing"
+        viral_potential: "very_high"
+        notes: "reveal business patterns"
+      example_fill:
+        customer_behavior: "kalian beli Starbucks"
+        business_response: "mereka salah tulis nama kalian"
+
+    # TIER 2: Authority & Framework Hooks (High Performance)
+    - id: "H005"
+      archetype: "authority"
+      template: "Aku pernah {experience} di {authority_context} dan hanya ada {number} cara untuk {goal}"
+      tags: ["viral_education", "authority", "experience_based", "reels<=4s"]
+      guidance:
+        platform_fit: ["IG", "YT"]
+        length_sec_max: 4.0
+        tone: "authoritative, credible"
+        viral_potential: "high"
+        notes: "establish credibility first, then deliver value"
+      example_fill:
+        experience: "kerja"
+        authority_context: "perusahaan FMCG besar Indonesia"
+        number: "tiga"
+        goal: "scale bisnis kalian"
+
+    - id: "H006"
+      archetype: "comparison"
+      template: "{item_a} harganya {price_a}, {item_b} {price_b}. {multiplier} lebih {difference_type}"
+      tags: ["viral_education", "price_comparison", "value_analysis", "reels<=4s"]
+      guidance:
+        platform_fit: ["IG", "YT"]
+        length_sec_max: 4.0
+        tone: "analytical, shocking"
+        viral_potential: "very_high"
+        notes: "dramatic price differences with value explanation"
+      example_fill:
+        item_a: "Air ini"
+        price_a: "3 ribu"
+        item_b: "yang ini"
+        price_b: "60 ribu"
+        multiplier: "20x"
+        difference_type: "mahal"
+
+    - id: "H007"
+      archetype: "pattern_recognition"
+      template: "{brand_1}, {tagline_1}. {brand_2}, {tagline_2}. {brand_3}, {tagline_3}"
+      tags: ["viral_education", "pattern_demo", "rule_of_three", "reels<=4s"]
+      guidance:
+        platform_fit: ["IG", "YT"]
+        length_sec_max: 4.0
+        tone: "demonstrative, educational"
+        viral_potential: "high"
+        notes: "use recognizable Indonesian brands, explain pattern"
+      example_fill:
+        brand_1: "Nike"
+        tagline_1: "Just Do It"
+        brand_2: "McD"
+        tagline_2: "I'm Lovin' It"
+        brand_3: "Canon"
+        tagline_3: "Delighting You Always"
+
+    - id: "H008"
+      archetype: "revelation"
+      template: "Dulu {personal_assumption}, tapi ternyata {surprising_revelation}"
+      tags: ["viral_education", "personal_discovery", "mindset_shift", "reels<=4s"]
+      guidance:
+        platform_fit: ["IG", "YT"]
+        length_sec_max: 4.0
+        tone: "personal, revelatory"
+        viral_potential: "very_high"
+        notes: "share genuine business discoveries"
+      example_fill:
+        personal_assumption: "gue mikir Pedro sama Charles Enquete itu saingan"
+        surprising_revelation: "mereka tuh satu owner"
+
+    - id: "H009"
+      archetype: "solution"
+      template: "ini cara kalian {achieve_goal} tanpa {common_constraint}"
+      tags: ["viral_education", "no_cost_solution", "practical_method", "reels<=4s"]
+      guidance:
+        platform_fit: ["IG", "YT"]
+        length_sec_max: 4.0
+        tone: "helpful, practical"
+        viral_potential: "high"
+        notes: "deliver actionable no-cost strategies"
+      example_fill:
+        achieve_goal: "dapet 100 customer pertama"
+        common_constraint: "modal besar"
+
+    # TIER 3: Educational & Framework Hooks (Medium-High Performance)
+    - id: "H010"
+      archetype: "counter_intuitive"
+      template: "{popular_belief} itu mitos. Yang bener adalah {truth_revelation}"
+      tags: ["viral_education", "myth_busting", "reels<=4s"]
+      guidance:
+        platform_fit: ["IG", "YT"]
+        length_sec_max: 4.0
+        tone: "myth-busting, educational"
+        viral_potential: "high"
+        notes: "debunk common business myths"
+      example_fill:
+        popular_belief: "Modal besar pasti sukses"
+        truth_revelation: "execution yang menentukan"
+
+    - id: "H011"
+      archetype: "curiosity"
+      template: "Di dunia {business_area} ada konsep namanya {concept_name}"
+      tags: ["viral_education", "concept_introduction", "business_education", "reels<=4s"]
+      guidance:
+        platform_fit: ["IG", "YT"]
+        length_sec_max: 4.0
+        tone: "educational, authoritative"
+        viral_potential: "medium"
+        notes: "introduce business concepts clearly"
+      example_fill:
+        business_area: "marketing"
+        concept_name: "rule of three"
+
+    - id: "H012"
+      archetype: "curiosity"
+      template: "{number} hal yang nggak diajarkan tentang {business_topic}"
+      tags: ["viral_education", "education_gap", "reels<=4s"]
+      guidance:
+        platform_fit: ["IG", "YT"]
+        length_sec_max: 4.0
+        tone: "revealing, educational"
+        viral_potential: "medium"
+        notes: "fill knowledge gaps in business education"
+      example_fill:
+        number: "3"
+        business_topic: "pricing strategy"
+
+exports:
+  hook_pool_ref: "hook_library.hooks"
+  optimized_hook_count: 12
+  viral_performance_focused: true
+
+# Optimized system integration for viral business scripts
+system_integration:
+  consumers:
+    - CORE_PACK.yaml#viral_hook_engine
+    - ENGAGEMENT_PACK.yaml#variant_manager
+    - BUSINESS_SCIENCE_PACK.yaml#marketing_science
+  
+  # Streamlined archetype mappings for viral effectiveness
+  viral_archetype_mappings:
+    authority: "credibility_establishment_for_business_education"
+    comparison: "dramatic_value_analysis_for_shock_value" 
+    pattern_recognition: "educational_psychology_principles"
+    revelation: "business_discovery_sharing"
+    solution: "practical_no_cost_methodology"
+    curiosity: "conspiracy_style_business_tactic_revealing"
+    counter_intuitive: "myth_busting_business_education"
+
+# Performance optimization settings
+performance_config:
+  hook_selection_priority: "viral_potential_over_variety"
+  archetype_rotation: "weighted_by_viral_performance"
+  platform_optimization: "reels_and_shorts_focused"
+  educational_balance: "maintain_high_value_threshold"
+
+# Validation tags for optimized system
+validation_tags:
+  - optimized_hook_library_active
+  - viral_performance_prioritized
+  - indonesian_business_context_focused
+  - educational_value_maintained
+  - platform_format_optimized
+  - conspiracy_style_balanced
+  - authority_establishment_enabled
+  - no_cost_solution_emphasized

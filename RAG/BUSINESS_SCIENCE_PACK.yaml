@@ -1,0 +1,235 @@
+version: "1.2.0"
+
+# BUSINESS SCIENCE PACK - Enhanced viral script business intelligence
+# Optimized for Indonesian Gen Z business education with viral potential
+
+exports:
+  marketing_science:
+    framework_mapper:
+      # Enhanced viral business script framework mapping
+      rules:
+        # Pricing and value frameworks
+        - intent: "pricing" → frameworks: ["Anchoring", "Decoy Effect", "Price Psychology"]
+        - intent: "value_comparison" → frameworks: ["Anchoring", "Reference Point Theory"]
+        - intent: "premium_positioning" → frameworks: ["Luxury Paradox", "Price-Quality Heuristic"]
+        
+        # Authority and credibility frameworks
+        - intent: "authority" → frameworks: ["Cialdini's Authority", "JTBD", "Expertise Recognition"]
+        - intent: "credibility" → frameworks: ["Trust Signals", "Social Proof", "Authority Markers"]
+        - intent: "experience_sharing" → frameworks: ["Personal Branding", "Thought Leadership"]
+        
+        # Educational and awareness frameworks
+        - intent: "education" → frameworks: ["Progressive Disclosure", "Scaffolding", "Pattern Recognition"]
+        - intent: "awareness" → frameworks: ["Category Entry Points", "Brand Salience", "ESOV"]
+        - intent: "revelation" → frameworks: ["Surprise Theory", "Cognitive Dissonance", "Aha Moments"]
+        
+        # Engagement and conversion frameworks
+        - intent: "conversion" → frameworks: ["Scarcity", "Social Proof", "Loss Aversion"]
+        - intent: "urgency" → frameworks: ["Scarcity", "FOMO", "Temporal Landmark Theory"]
+        - intent: "engagement" → frameworks: ["Curiosity Gap", "Zeigarnik Effect", "Interactive Theory"]
+        
+        # Viral script specific frameworks
+        - intent: "conspiracy_revealing" → frameworks: ["Pattern Recognition", "Cognitive Dissonance"]
+        - intent: "competitive_analysis" → frameworks: ["Porter's Five Forces", "Game Theory"]
+        - intent: "retail_psychology" → frameworks: ["Choice Architecture", "Environmental Psychology"]
+        
+        # Topic-specific framework mapping
+        - topic: "dwell time" → frameworks: ["Choice Architecture", "Environmental Design"]
+        - topic: "price psychology" → frameworks: ["Anchoring", "Decoy Effect", "Mental Accounting"]
+        - topic: "supermarket tactics" → frameworks: ["Choice Architecture", "Behavioral Economics"]
+        - topic: "brand positioning" → frameworks: ["Positioning Theory", "Perceptual Mapping"]
+        - topic: "competitive strategy" → frameworks: ["Blue Ocean", "Game Theory", "Market Dynamics"]
+        - topic: "viral marketing" → frameworks: ["Network Effects", "Social Contagion", "Word of Mouth"]
+        
+        # Goal-oriented framework mapping
+        - goal: "growth" → frameworks: ["Flywheel", "LTV/CAC", "Viral Coefficient"]
+        - goal: "retention" → frameworks: ["Hook Model", "Habit Formation", "Customer Success"]
+        - goal: "acquisition" → frameworks: ["AARRR", "Growth Hacking", "Viral Loops"]
+    evidence_engine:
+      # Enhanced for Indonesian business context
+      output_format:
+        lead_in: "Berdasarkan riset terbaru,"
+        body_pattern: "{claim}"
+        qualifier_pattern: "Hal ini menunjukkan"
+        disclaimer_pattern: "Hasil dapat bervariasi tergantung konteks bisnis"
+      
+      # Prioritized sources for Indonesian business education
+      sources:
+        - name: "Harvard Business Review"
+          url: "https://hbr.org/"
+          note: "Marketing analytics insights"
+          date: "2023-05-15"
+          relevance: "international_business_principles"
+        
+        - name: "McKinsey Indonesia"
+          url: "https://www.mckinsey.com/"
+          note: "Indonesian market insights"
+          date: "2024-01-10"
+          relevance: "local_market_analysis"
+        
+        - name: "Byron Sharp - How Brands Grow"
+          url: "https://www.marketingscience.info/"
+          note: "Category Entry Points theory"
+          date: "2010-09-01"
+          relevance: "brand_building_fundamentals"
+        
+        - name: "Bank Indonesia"
+          url: "https://www.bi.go.id/"
+          note: "Indonesian economic indicators"
+          date: "2024-02-01"
+          relevance: "local_economic_context"
+        
+        - name: "Bain & Company Southeast Asia"
+          url: "https://www.bain.com/"
+          note: "SEA consumer behavior trends"
+          date: "2023-11-20"
+          relevance: "regional_consumer_insights"
+        
+        - name: "Nielsen Indonesia"
+          url: "https://www.nielsen.com/"
+          note: "Local consumer research"
+          date: "2024-01-15"
+          relevance: "indonesian_consumer_behavior"
+    consumer_psych_injector:
+      position: "after_hook_or_peak"
+      # Enhanced with Indonesian business context and viral script compatibility
+      example_lines:
+        # Pricing psychology insights
+        - "Dengan nge-anchor harga tinggi dulu, konsumen nganggap harga selanjutnya lebih murah."
+        - "Nunjukin berapa orang yang udah beli real-time itu build social proof dan trust langsung."
+        - "Limited-time offers tap into loss aversion, bikin customer decide lebih cepet."
+        
+        # Retail psychology insights
+        - "Nunjukin 'Tinggal 3 lagi' itu inject urgency, boost conversion rate."
+        - "Suggest complementary items increase dwell time dan average basket size."
+        - "Organizing options in logical sequence simplify decision-making process."
+        
+        # Indonesian retail specific insights
+        - "Supermarket Indo sering pake warm lighting di produk fresh food biar keliatan lebih appetizing."
+        - "Positioning produk impuls di checkout counter boost last-minute purchase behavior."
+        - "Background music yang slow bikin customer spend lebih lama dan belanja lebih banyak."
+        
+        # Viral marketing psychology
+        - "Content yang bikin orang ngerasa 'insider' lebih likely di-share ke circle mereka."
+        - "Reveal taktik bisnis yang relatable trigger 'aha moment' dan boost engagement."
+        - "Frame business insight sebagai 'rahasia' increase perceived value dan shareability."
+        
+        # Authority establishment psychology
+        - "Share pengalaman spesifik build credibility lebih kuat daripada general statement."
+        - "Mention specific company atau industry context increase trust dan authority."
+        - "Kasih framework setelah establish experience create memorable takeaway."
+    case_study_stitcher:
+      structure:
+        - problem
+        - tactic_framework
+        - metric_context
+        - outcome
+        - caveat
+      
+      # Enhanced with Indonesian business context examples
+      examples:
+        # E-commerce optimization examples
+        - problem: "High cart abandonment di checkout"
+          tactic_framework: "Applied Anchoring dengan nunjukin original price dan discounted rate"
+          metric_context: "Cart completion rate naik dari 50% ke 65% dalam 4 minggu"
+          outcome: "15% uplift in conversions"
+          caveat: "Results bervariasi per segment; premium users showed smaller lift"
+        
+        # Brand awareness examples
+        - problem: "Low awareness di new market Indonesia"
+          tactic_framework: "Leverage Category Entry Points messaging untuk highlight usage occasions"
+          metric_context: "Brand recall naik dari 20% ke 45% dalam 3 bulan"
+          outcome: "25% increase in search volume"
+          caveat: "Seasonal factors seperti lebaran mungkin contribute"
+        
+        # Customer retention examples
+        - problem: "Stagnant repeat purchase rates di UMKM"
+          tactic_framework: "Introduce loyalty badges dan social proof di product pages"
+          metric_context: "Repeat purchase rate improve dari 30% ke 40% dalam 8 minggu"
+          outcome: "33% boost in customer retention"
+          caveat: "Effect plateau setelah dua bulan"
+        
+        # Indonesian retail specific examples
+        - problem: "Low dwell time di minimarket lokal"
+          tactic_framework: "Reorganize layout dengan impulse products di high-traffic areas"
+          metric_context: "Average time spent naik dari 5 menit ke 8 menit"
+          outcome: "20% increase in average transaction value"
+          caveat: "Results vary based on location dan demographic"
+        
+        # Viral marketing examples
+        - problem: "Rendah organic reach di social media"
+          tactic_framework: "Create conspiracy-style content reveal business tactics"
+          metric_context: "Engagement rate naik dari 2% ke 8% dalam 6 minggu"
+          outcome: "300% increase in organic reach"
+          caveat: "Content harus tetap educational untuk maintain credibility"
+        
+        # Authority building examples
+        - problem: "Low trust dari target audience Gen Z"
+          tactic_framework: "Share specific corporate experience dengan actionable insights"
+          metric_context: "Trust score naik dari 40% ke 75% dalam 2 bulan"
+          outcome: "50% increase in follow-through rate"
+          caveat: "Authenticity critical - fake experience quickly detected"
+    compliance_filter:
+      # Enhanced compliance rules for viral business content
+      rules:
+        - "no_absolute_guarantees"
+        - "metrics_require_context_or_range"
+        - "avoid_cherry_picking"
+        - "require_principle_if_strong_claim"
+        - "present_conspiracy_theories_as_analysis_not_fact"  # NEW
+        - "frame_corporate_experience_as_personal_not_insider"  # NEW
+        - "verify_business_relationships_via_public_info"  # NEW
+        - "balance_revelation_with_educational_value"  # NEW
+      
+      # Viral script specific compliance
+      viral_script_compliance:
+        authority_establishment:
+          - "verify_or_acknowledge_experience_claims"
+          - "focus_on_general_principles_not_confidential_info"
+          - "frame_as_personal_insight_not_company_secrets"
+        
+        conspiracy_revealing:
+          - "present_as_business_analysis_not_definitive_conspiracy"
+          - "provide_alternative_explanations"
+          - "maintain_educational_focus_over_sensationalism"
+        
+        competitive_analysis:
+          - "base_on_publicly_available_information"
+          - "frame_observations_as_analysis_not_accusations"
+          - "avoid_unverified_business_relationship_claims"
+        
+        retail_psychology:
+          - "cite_consumer_behavior_research_when_possible"
+          - "present_as_examples_not_universal_truths"
+          - "acknowledge_individual_response_variations"
+
+# Enhanced validators for viral business script generation
+validators:
+  - "ensure_framework_justified_by_intent"
+  - "ensure_evidence_for_strong_claims"
+  - "ensure_metrics_have_context"
+  - "verify_viral_script_compliance"  # NEW
+  - "validate_indonesian_business_context"  # NEW
+  - "ensure_educational_value_maintained"  # NEW
+
+# Integration with core system
+system_integration:
+  consumers:
+    - "CORE_PACK.yaml#deep_research_engine"
+    - "ENGAGEMENT_PACK.yaml#cta_engine"
+    - "RUNTIME_QUALITY.yaml#enhanced_fact_verification"
+  
+  provides:
+    - "business_framework_intelligence"
+    - "consumer_psychology_insights"
+    - "case_study_integration"
+    - "compliance_enforcement"
+    - "viral_business_content_optimization"
+
+# Validation tags
+validation_tags:
+  - business_science_pack_active
+  - indonesian_context_integrated
+  - viral_script_compatibility_enabled
+  - compliance_filtering_active
+  - educational_value_prioritized
