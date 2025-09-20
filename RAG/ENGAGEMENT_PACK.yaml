@@ -203,6 +203,29 @@ title_generation_engine:
       - health_claims: "Obat Manjur", "Sembuh Total"
       - get_rich_quick: "Jadi Milyuner 1 Hari"
       - pyramid_scheme: "Passive Income Unlimited"
+    
+    # NEW: Numbered content promise validation integration
+    numbered_content_responsibility:
+      validation_integration: "RUNTIME_QUALITY.yaml#numbered_content_validator"
+      title_promise_tracking:
+        - extract_number_from_title_pattern
+        - flag_as_content_delivery_requirement
+        - ensure_downstream_content_fulfillment
+      
+      safe_numbered_patterns:
+        - "3_verified_strategies_with_examples"
+        - "5_actionable_tips_with_implementation"
+        - "4_proven_frameworks_with_case_studies"
+      
+      risky_numbered_patterns:
+        - avoid: "10_secrets_limited_content_capacity"
+        - avoid: "7_steps_without_detailed_explanation"
+        - avoid: "9_ways_exceeding_platform_time_limits"
+      
+      content_capacity_validation:
+        - platform_time_constraint_consideration
+        - ensure_adequate_segment_allocation_per_point
+        - prevent_rushed_delivery_to_meet_count
 
   # Platform-specific title optimization
   platform_adaptations:

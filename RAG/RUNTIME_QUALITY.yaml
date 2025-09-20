@@ -304,6 +304,99 @@ structure_language_enforcer:
     validate_comparison_impact: verify_dramatic_difference_explanation_flow
     validate_pattern_demonstration: ensure_example_explanation_application_flow
 
+# CRITICAL ENHANCEMENT: Numbered content promise validation
+numbered_content_validator:
+  enabled: true
+  module_id: numbered_content_promise_delivery_validator
+  priority: CRITICAL_CONTENT_INTEGRITY
+  
+  # Detect numbered promises in titles and hooks
+  number_detection_patterns:
+    explicit_numbers:
+      - regex: "(\d+)\s+(alasan|cara|strategi|rahasia|trik|langkah|tips|hal)"
+      - examples: ["3 alasan", "5 cara", "7 strategi", "4 rahasia"]
+    
+    implicit_countdown:
+      - patterns: ["pertama", "kedua", "ketiga", "keempat", "kelima"]
+      - sequence_validation: ensure_complete_progression
+    
+    list_indicators:
+      - patterns: ["beberapa", "sejumlah", "berbagai"]
+      - minimum_delivery: 2_distinct_points
+  
+  # Content delivery validation
+  promise_delivery_validation:
+    extraction_rules:
+      title_promise_extraction:
+        - scan_title_for_number_patterns
+        - extract_promised_count_and_topic
+        - flag_as_critical_delivery_requirement
+      
+      hook_amplification_detection:
+        - detect_hook_reinforcement_of_title_promise
+        - identify_expectation_amplification
+        - mark_double_promise_as_high_priority_validation
+    
+    content_scanning:
+      segment_analysis:
+        - scan_PEAK_BODY_VALTWI_for_numbered_delivery
+        - detect_ordinal_progression: ["pertama", "kedua", "ketiga"]
+        - count_distinct_points_delivered
+        - validate_logical_sequence_completion
+      
+      delivery_gap_detection:
+        - compare_promised_count_vs_delivered_count
+        - identify_missing_numbered_items
+        - flag_incomplete_delivery_as_critical_violation
+    
+    flexible_content_structure:
+      # Allow content distribution across segments
+      multi_segment_delivery:
+        - PEAK: can_contain_points_1_and_2
+        - BODY: can_contain_points_2_and_3  
+        - VALTWI: can_contain_points_3_and_4
+        - flexible_allocation: true
+      
+      segment_content_validation:
+        - ensure_each_segment_contributes_to_promise
+        - prevent_premature_lesson_learned_transition
+        - maintain_content_delivery_until_complete
+  
+  # Violation handling
+  on_incomplete_delivery:
+    detection_triggers:
+      - promised_count_greater_than_delivered_count
+      - missing_ordinal_progression_steps
+      - VALTWI_transitions_to_lesson_before_completion
+    
+    correction_strategies:
+      regenerate_incomplete_segments:
+        - identify_which_segments_need_content_completion
+        - regenerate_VALTWI_with_missing_numbered_points
+        - ensure_promise_fulfillment_before_lesson_transition
+      
+      content_redistribution:
+        - redistribute_promised_points_across_available_segments
+        - maintain_logical_flow_while_ensuring_completion
+        - preserve_educational_value_and_viral_potential
+    
+    max_regeneration_attempts: 2
+    fallback_strategy: reduce_title_promise_to_match_delivered_content
+  
+  # Integration with existing validation
+  integration_points:
+    title_hook_alignment:
+      - enhance_existing_alignment_check_with_numbered_validation
+      - ensure_hook_supports_title_promise_delivery
+    
+    content_structure_validation:
+      - integrate_with_structure_language_enforcer
+      - ensure_numbered_content_compatible_with_platform_timing
+    
+    educational_value_maintenance:
+      - ensure_promise_delivery_maintains_educational_focus
+      - prevent_filler_content_just_to_meet_number_requirements
+
 # Enhanced validation tags for complete viral business system
 validation_tags:
   - enhanced_fact_verification_active
@@ -319,6 +412,9 @@ validation_tags:
   - platform_optimization_validated
   - clickbait_balance_maintained
   - educational_value_prioritized
+  - numbered_content_promise_delivery_validated  # NEW
+  - ordinal_progression_completion_enforced      # NEW
+  - content_integrity_comprehensive_validation    # NEW
 
 validators:
   enhanced_fact_verification:
@@ -391,6 +487,33 @@ validators:
       🎬: scene_transition
     on_violation: regenerate_once
     viral_script_structure_validation: enabled  # NEW
+
+  numbered_content_validator:  # NEW CRITICAL VALIDATOR
+    enabled: true
+    priority: CRITICAL_CONTENT_INTEGRITY
+    validation_scope:
+      - title_promise_extraction
+      - hook_reinforcement_detection
+      - content_delivery_validation
+      - ordinal_progression_completion
+    detection_patterns:
+      explicit_numbers: "(\\d+)\\s+(alasan|cara|strategi|rahasia|trik|langkah|tips|hal)"
+      implicit_countdown: ["pertama", "kedua", "ketiga", "keempat", "kelima"]
+      list_indicators: ["beberapa", "sejumlah", "berbagai"]
+    validation_triggers:
+      - promised_count_vs_delivered_count_mismatch
+      - incomplete_ordinal_progression
+      - premature_lesson_transition_in_VALTWI
+    correction_strategies:
+      - regenerate_incomplete_segments
+      - redistribute_content_across_segments
+      - ensure_promise_fulfillment_before_conclusion
+    max_attempts: 2
+    fallback: reduce_title_promise_to_match_content
+    outputs:
+      - numbered_content_integrity_score
+      - promise_delivery_completion_status
+      - missing_content_identification
 
 format_contracts:
   cinegenix_format:

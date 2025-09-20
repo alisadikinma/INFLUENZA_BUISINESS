@@ -31,6 +31,7 @@ module_mapping:
   caption_cta_engine: "ENGAGEMENT_PACK.yaml#caption_cta_engine"
   viral_hashtag_engine: "SOCIAL_OPTIMIZATION_PACK.yaml#viral_hashtag_engine"
   viral_amplification_engine: "SOCIAL_OPTIMIZATION_PACK.yaml#viral_amplification_engine"
+  numbered_content_validator: "RUNTIME_QUALITY.yaml#numbered_content_validator"  # NEW CRITICAL
 
 # Optimized execution flow for viral business scripts
 execution_flow:
@@ -68,6 +69,9 @@ execution_flow:
     - compliance_enforcement: "business_claims_compliance.rules"
     - originality_verification: "originality_guard.viral_script_pattern_blocking"
     - platform_structure_validation: "RUNTIME_QUALITY.yaml#structure_language_enforcer"
+    - numbered_content_integrity_check: "RUNTIME_QUALITY.yaml#numbered_content_validator"  # NEW CRITICAL
+    - promise_delivery_validation: "numbered_content_validator.promise_delivery_validation"  # NEW
+    - ordinal_progression_completion: "numbered_content_validator.content_scanning"  # NEW
 
 # Enhanced validation requirements for viral business content
 validation_requirements:
@@ -94,6 +98,9 @@ validation_requirements:
     verify_business_relationship_claims: true
     frame_observations_as_analysis: true
     provide_alternative_explanations: true
+    ensure_numbered_promise_delivery: true  # NEW CRITICAL
+    complete_ordinal_progression: true      # NEW CRITICAL
+    prevent_premature_lesson_transition: true  # NEW CRITICAL
 
 # Integration priorities for optimal viral business script generation
 integration_priorities:
