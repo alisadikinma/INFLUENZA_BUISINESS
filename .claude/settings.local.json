@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/Projects/**)",
+      "Bash(time:*)",
+      "Bash(powershell:*)",
+      "mcp__ide__executeCode",
+      "Read(//d/**)",
+      "Bash(ls:*)",
+      "Bash(dir:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

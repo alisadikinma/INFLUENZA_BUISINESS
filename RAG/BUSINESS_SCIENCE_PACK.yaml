@@ -31,6 +31,20 @@ exports:
         social_responsibility_expectation: "brands must demonstrate genuine commitment"
         collaborative_business_approach: "community-focused solutions preferred"
 
+      indonesian_startup_ecosystem_context:
+        unicorn_success_stories: "Gojek, Grab, Tokopedia, Shopee - collaborative ecosystem building"
+        local_msme_digital_transformation: "98% MSME using digital platforms for business growth"
+        creator_economy_monetization: "Instagram, TikTok, YouTube - local creator success patterns"
+        community_business_building: "Gotong royong approach in digital business development"
+        economic_accessibility_focus: "Low barrier entry strategies for Indonesian entrepreneurs"
+
+      indonesian_business_frameworks:
+        gotong_royong_business_model: "community collaboration over individual competition"
+        inclusive_growth_strategy: "economic accessibility consideration in business planning"
+        cultural_value_integration: "Indonesian values alignment in business strategy"
+        local_market_understanding: "deep Indonesian consumer behavior integration"
+        sustainable_community_impact: "long-term community benefit over short-term profit"
+
     framework_mapper:
       # Enhanced with Indonesian cultural context framework mapping
       rules:
@@ -65,6 +79,13 @@ exports:
         - intent: "guyub_community" → frameworks: ["Community Marketing", "Collective Decision Making"]
         - intent: "brand_switching_behavior" → frameworks: ["Switching Cost Theory", "Brand Loyalty Dynamics"]
         - intent: "social_consciousness" → frameworks: ["Purpose-Driven Branding", "Social Impact Marketing"]
+
+        # Enhanced: Indonesian business ecosystem frameworks
+        - intent: "indonesian_startup_strategy" → frameworks: ["Gotong Royong Business Model", "Inclusive Growth Framework"]
+        - intent: "local_creator_economy" → frameworks: ["Creator Monetization Strategy", "Community Building Framework"]
+        - intent: "msme_digital_transformation" → frameworks: ["Digital Adoption Framework", "Low Barrier Entry Strategy"]
+        - intent: "cultural_business_values" → frameworks: ["Value Alignment Strategy", "Cultural Integration Framework"]
+        - intent: "economic_accessibility" → frameworks: ["Inclusive Business Model", "Resource Optimization Framework"]
         
         # Topic-specific framework mapping
         - topic: "dwell time" → frameworks: ["Choice Architecture", "Environmental Design"]
@@ -85,6 +106,13 @@ exports:
         body_pattern: "{claim}"
         qualifier_pattern: "Hal ini menunjukkan"
         disclaimer_pattern: "Hasil dapat bervariasi tergantung konteks bisnis"
+
+      indonesian_context_integration:
+        startup_ecosystem_references: "contoh Gojek, Grab, Tokopedia dalam membangun ekosistem kolaboratif"
+        msme_digital_success: "98% MSME Indonesia menggunakan platform digital untuk pertumbuhan bisnis"
+        creator_economy_monetization: "strategi monetisasi creator lokal di Instagram, TikTok, YouTube"
+        community_business_building: "pendekatan gotong royong dalam pengembangan bisnis digital"
+        cultural_value_business_alignment: "integrasi nilai-nilai Indonesia dalam strategi bisnis modern"
       
       # Prioritized sources for Indonesian business education
       sources:
@@ -97,6 +125,26 @@ exports:
         - name: "McKinsey Indonesia"
           url: "https://www.mckinsey.com/"
           note: "Indonesian market insights"
+          date: "2024-03-20"
+          relevance: "local_business_ecosystem_analysis"
+
+        - name: "Gojek Engineering Blog"
+          url: "https://blog.gojekengineering.com/"
+          note: "Indonesian unicorn success strategies"
+          date: "2024-06-15"
+          relevance: "local_startup_ecosystem_insights"
+
+        - name: "Tokopedia Business Insights"
+          url: "https://www.tokopedia.com/"
+          note: "Indonesian e-commerce market dynamics"
+          date: "2024-05-10"
+          relevance: "local_marketplace_strategies"
+
+        - name: "Indonesian Startup Report 2024"
+          url: "https://dailysocial.id/"
+          note: "Local startup ecosystem trends and opportunities"
+          date: "2024-04-25"
+          relevance: "indonesian_entrepreneur_landscape"
           date: "2024-01-10"
           relevance: "local_market_analysis"
         

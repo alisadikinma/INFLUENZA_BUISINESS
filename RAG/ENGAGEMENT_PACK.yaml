@@ -193,6 +193,11 @@ title_generation_engine:
       - "Gue Speechless"
       - "Ternyata"
       - "Rahasia"
+      - "Gue Banget"
+      - "Relate Banget"
+      - "Anjay Bener"
+      - "Unexpectedly"
+      - "Real Talk"
     
     urgency_creators:
       - "Sebelum Telat"
@@ -642,3 +647,63 @@ success_metrics:
   authority_trust_building: progression_from_skepticism_to_credibility_acceptance
   comparison_education: understanding_depth_of_value_analysis_concepts
   pattern_recognition_learning: application_of_business_principles_in_comments\n\n# NEW: Choice-Based Engagement System 2024-2025\nchoice_engagement_system:\n  module_id: choice_based_engagement_system\n  enabled: true\n  priority: HIGH_ENGAGEMENT_OPTIMIZATION\n\n  team_scenarios:\n    business_choices:\n      - \"Tim bootstrapping vs Tim investment\"\n      - \"Tim mindful consumption vs Tim FOMO culture\"\n      - \"Tim brand loyal vs Tim praktis ganti-ganti\"\n      - \"Tim nilai authenticity vs Tim chase viral\"\n      - \"Tim community building vs Tim individual success\"\n    \n    cultural_choices:\n      - \"Tim rojali vs Tim pembeli aktif\"\n      - \"Tim guyub collaboration vs Tim individual competition\"\n      - \"Tim social consciousness vs Tim profit only\"\n      - \"Tim mindful spending vs Tim impulse buying\"\n      - \"Tim local brand support vs Tim global brand preference\"\n\n    lifestyle_choices:\n      - \"Tim beauty 21% spending vs Tim fashion 20% spending\"\n      - \"Tim dining out experiences vs Tim home cooking\"\n      - \"Tim sustainable practices vs Tim convenience priority\"\n      - \"Tim value alignment purchasing vs Tim price only decisions\"\n\n  cultural_choice_questions:\n    rojali_discussions:\n      - \"Lo pernah jadi rojali nggak?\"\n      - \"Rojali behavior actually smart for economy?\"\n      - \"Mall socialization vs online shopping preference?\"\n    \n    economic_awareness:\n      - \"Brand choices reflect economic status?\"\n      - \"Price comparison habit or brand loyalty?\"\n      - \"43% brand switching every 1-3 months - normal?\"\n    \n    social_responsibility:\n      - \"Expect brands speak out social issues?\"\n      - \"Authentic value alignment vs marketing virtue signaling?\"\n      - \"Community benefit vs individual profit priority?\"\n\n  engagement_triggers:\n    choice_questions_universal_effectiveness: true\n    interactive_participation_requirements:\n      - present_clear_options\n      - cultural_relevance_priority\n      - community_discussion_generation\n      - avoid_false_dichotomies\n    \n    platform_optimization:\n      instagram: \"poll stickers + comment engagement\"\n      tiktok: \"duet responses + comment scenarios\"\n      youtube: \"comment discussion + community posts\"\n\n  cultural_integration_2024_2025:\n    current_phenomena_alignment:\n      - rojali_40_percent_mall_traffic\n      - mindful_consumption_73_percent\n      - brand_switching_43_percent\n      - value_alignment_79_percent\n      - social_consciousness_70_percent\n    \n    guyub_values_integration:\n      - community_decision_making_preference\n      - collective_learning_over_individual_success\n      - togetherness_orientation_choices\n      - collaborative_exploration_scenarios
+
+  # ENHANCED: Format-Specific Choice Question Optimization Based on Bug Report
+  format_specific_engagement_enhancement:
+    30s_relate_format_optimization:
+      instant_relatability_focus:
+        - everyday_personal_dilemma_scenarios
+        - gue_banget_instant_connection_triggers
+        - light_business_touch_through_personal_experience
+        - casual_accessible_choice_presentations
+        - beauty_fashion_dining_priority_personal_decisions
+
+      authentic_choice_questions:
+        - "Tim selalu ngitung budget vs Tim YOLO beli aja - lo yang mana?"
+        - "Gue banget yang suka brand switching, kalian juga?"
+        - "Tim rojali di mall vs Tim belanja online terus?"
+        - "Beauty budget 21% vs fashion 20% - priority lo gimana?"
+        - "Tim mindful consumption vs Tim impulse buying?"
+        - "Tim yang suka browsing berjam-jam tapi gak jadi beli vs Tim langsung checkout?"
+        - "Tim yang compare harga di 5 platform vs Tim ambil yang pertama ketemu?"
+        - "Tim yang beli karena butuh vs Tim beli karena lucu?"
+        - "Tim hemat buat masa depan vs Tim enjoy hidup sekarang?"
+        - "Tim yang baca review dulu vs Tim yang percaya foto produk?"
+
+    60s_education_format_optimization:
+      sophisticated_discussion_triggers:
+        - indonesian_business_ecosystem_considerations
+        - cultural_business_values_alignment_analysis
+        - startup_economy_indonesian_context_discussions
+        - educational_community_building_questions
+        - thoughtful_cultural_business_integration_topics
+
+      enhanced_educational_choices:
+        - "Indonesian startup ecosystem collaborative approach vs competitive individual strategy?"
+        - "Guyub community business building vs rapid individual scaling?"
+        - "Cultural business values integration vs pure profit optimization?"
+        - "Local creator economy monetization vs global platform focus?"
+        - "Economic accessibility consideration vs premium market targeting?"
+        - "Building with Indonesian cultural values vs adapting global business models?"
+        - "Community-first approach vs growth-first mentality?"
+        - "Local market understanding vs international expansion focus?"
+        - "Sustainable business practices vs rapid growth strategies?"
+        - "Traditional Indonesian business wisdom vs modern digital strategies?"
+
+  # ENHANCED: Community Building Optimization
+  community_building_enhancement:
+    30s_relate_community_triggers:
+      - casual_shared_experience_validation
+      - personal_story_sharing_encouragement
+      - everyday_struggle_relatability_building
+      - guyub_values_casual_integration
+      - instant_relatability_validation_seeking
+      - everyday_dilemma_shared_experience
+      - personal_authenticity_community_building
+      - light_business_insight_through_daily_life
+
+    60s_education_community_triggers:
+      - thoughtful_learning_discussion_facilitation
+      - sophisticated_cultural_business_analysis_sharing
+      - indonesian_entrepreneur_ecosystem_conversation_building
+      - educational_value_collaborative_exploration

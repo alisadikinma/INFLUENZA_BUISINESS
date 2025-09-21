@@ -25,49 +25,58 @@ hook_library:
 
   # Enhanced hooks with cultural integration
   hooks:
-    # TIER 0: Cultural Connection Hooks (30s Relate Format)
+    # TIER 0: Enhanced Cultural Connection Hooks (30s Relate Format - Instant Gue Banget)
     - id: "HC001"
-      archetype: "cultural_relate"
-      template: "Rojali (rombongan jarang beli) {statistic} mall traffic... relate nggak?"
-      tags: ["cultural_2024", "rojali_phenomenon", "30s_relate", "choice_engagement"]
+      archetype: "instant_cultural_relate"
+      template: "Rojali (rombongan jarang beli) {statistic} mall traffic... {instant_relate_trigger}"
+      tags: ["cultural_2024", "rojali_phenomenon", "30s_relate", "instant_gue_banget", "2_second_engagement"]
       guidance:
         platform_fit: ["IG", "TikTok", "YT"]
-        length_sec_max: 3.0
-        tone: "relatable, empathetic, gue banget"
+        length_sec_max: 1.5
+        tone: "instant_relatable, authentic_gue_banget"
         viral_potential: "very_high"
-        cultural_sensitivity: "acknowledge economic pressures"
-        format_preference: "30s_relate"
+        cultural_sensitivity: "acknowledge economic pressures with empathy"
+        format_preference: "30s_relate_only"
+        instant_validation: "gue_banget_feeling_required_first_1_5_seconds"
+        engagement_optimization: "immediate_cultural_touchpoint_frontloading"
+        business_complexity: "zero_business_frameworks_allowed"
       example_fill:
         statistic: "40%"
-        engagement_trigger: "Lo pernah jadi rojali nggak?"
+        instant_relate_trigger: "Gue banget sih, kalian juga kan?"
 
     - id: "HC002"
-      archetype: "cultural_relate"
-      template: "{current_slang}, 43% Gen Z ganti brand tiap 1-3 bulan. {relate_question}"
-      tags: ["cultural_2024", "brand_switching", "current_slang", "30s_relate"]
+      archetype: "instant_personal_relate"
+      template: "{natural_slang_integration}, 43% Gen Z ganti brand tiap 1-3 bulan. {personal_experience_trigger}"
+      tags: ["cultural_2024", "brand_switching", "natural_slang", "30s_relate", "personal_authenticity"]
       guidance:
         platform_fit: ["IG", "TikTok", "YT"]
-        length_sec_max: 3.0
-        tone: "natural, unscripted, relatable"
-        viral_potential: "high"
-        slang_integration: "natural usage only"
-        choice_scenario: "Tim brand loyal atau tim praktis?"
+        length_sec_max: 1.5
+        tone: "natural_conversation_flow, authentic_personal"
+        viral_potential: "very_high"
+        slang_integration: "organic_placement_only"
+        choice_scenario: "Tim setia brand atau tim gampang pindah?"
+        personal_connection: "share_real_brand_switching_experience"
+        instant_relatability: "immediate_gue_banget_validation"
+        business_angle: "light_through_personal_experience_only"
       example_fill:
-        current_slang: "Anjay/Rilcuy"
-        relate_question: "Lo juga kan?"
+        natural_slang_integration: "Anjay"
+        personal_experience_trigger: "Gue juga banget nih, kalian gimana?"
 
     - id: "HC003"
-      archetype: "cultural_relate"
-      template: "73% Gen Z pilih mindful consumption over FOMO. {values_alignment}"
-      tags: ["cultural_2024", "mindful_consumption", "value_alignment", "30s_relate"]
+      archetype: "everyday_dilemma_relate"
+      template: "73% Gen Z pilih mindful consumption over FOMO. {everyday_dilemma_connection}"
+      tags: ["cultural_2024", "mindful_consumption", "everyday_dilemma", "30s_relate", "personal_choice"]
       guidance:
         platform_fit: ["IG", "TikTok", "YT"]
-        length_sec_max: 3.0
-        tone: "thoughtful, community-focused"
-        viral_potential: "high"
-        community_engagement: "Tim mindful vs Tim FOMO culture"
+        length_sec_max: 1.5
+        tone: "personal_dilemma, relatable_choice"
+        viral_potential: "very_high"
+        community_engagement: "Tim mindful yang ngitung-ngitung vs Tim YOLO beli aja"
+        daily_life_integration: "connect_to_shopping_decisions"
+        instant_engagement: "immediate_choice_dilemma_presentation"
+        shareability_boost: "relatable_choice_scenarios_viral_potential"
       example_fill:
-        values_alignment: "Character development sih ini"
+        everyday_dilemma_connection: "Gue selalu bingung sih, kalian tim yang mana?"
 
     - id: "HC004"
       archetype: "cultural_relate"
@@ -75,13 +84,46 @@ hook_library:
       tags: ["cultural_2024", "analysis_style", "current_slang", "30s_relate"]
       guidance:
         platform_fit: ["IG", "TikTok", "YT"]
-        length_sec_max: 3.0
+        length_sec_max: 2.0
         tone: "collaborative exploration"
-        viral_potential: "high"
+        viral_potential: "very_high"
         slang_meaning: "mari kita coba - let's try together"
+        casual_accessibility: "light_business_observation_only"
+        community_building: "collaborative_exploration_triggers"
       example_fill:
         brand_behavior: "live shopping engagement"
         cultural_pattern: "62% active participation"
+
+    # ENHANCED: Additional 30s Relate Format Hooks for Instant Engagement
+    - id: "HC005"
+      archetype: "instant_personal_story"
+      template: "Gue pernah {personal_experience}, ternyata {simple_insight}"
+      tags: ["personal_story", "authentic_experience", "30s_relate", "casual_accessibility"]
+      guidance:
+        platform_fit: ["IG", "TikTok", "YT"]
+        length_sec_max: 1.5
+        tone: "personal_authentic_casual"
+        viral_potential: "very_high"
+        business_complexity: "minimal_through_personal_experience"
+        instant_relatability: "personal_story_immediate_connection"
+      example_fill:
+        personal_experience: "belanja di mall cuma jalan-jalan doang"
+        simple_insight: "gue termasuk rojali rupanya"
+
+    - id: "HC006"
+      archetype: "everyday_observation"
+      template: "Kalian notice gak sih, {everyday_pattern}? {relate_validation}"
+      tags: ["observation", "pattern_recognition", "30s_relate", "instant_connection"]
+      guidance:
+        platform_fit: ["IG", "TikTok", "YT"]
+        length_sec_max: 1.5
+        tone: "observational_relatable"
+        viral_potential: "very_high"
+        engagement_trigger: "immediate_validation_seeking"
+        shareability: "relatable_observation_viral_potential"
+      example_fill:
+        everyday_pattern: "kalau belanja online suka browsing berjam-jam tapi akhirnya gak beli"
+        relate_validation: "Gue banget sih ini"
     # TIER 1: Enhanced Viral Script Hooks with Cultural Integration
     - id: "H001"
       archetype: "curiosity"
