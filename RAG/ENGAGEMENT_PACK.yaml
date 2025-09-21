@@ -1,4 +1,4 @@
-version: "1.0.0"
+version: "2.4.0"
 
 pattern_ref_prefix: '!RAG_ENGAGEMENT_MODULES'
 
@@ -6,6 +6,9 @@ compiled_from:
   - Content Strategy Framework v3.8.2
   - Script Format Blueprint v3.8.2
   - Viral Script Analysis Enhancement v1.0
+  - Choice-Based Engagement System 2024-2025
+  - Cultural Team Scenarios Integration
+  - Interactive Participation Optimization
 
 replay_logic:
   core_mechanisms:
@@ -35,11 +38,24 @@ replay_logic:
           emotional_arc: anxiety_clarity_control
           episode_progression: problem_awareness_systematic_approach_optimization
 
-        # NEW: Viral script inspired series
+        # ENHANCED: Cultural integration series 2024-2025
         series_marketing_psychology:
           motif_keyword: consumer_psychology_business_tactics
           emotional_arc: curiosity_revelation_empowerment
           episode_progression: observation_analysis_insight_application
+          cultural_integration: rojali_phenomenon_mindful_consumption_patterns
+
+        series_cultural_business_2024:
+          motif_keyword: indonesian_gen_z_business_culture_evolution
+          emotional_arc: recognition_understanding_community_connection
+          episode_progression: cultural_observation_business_insight_community_engagement
+          cultural_phenomena: ["rojali", "mindful_consumption", "brand_switching"]
+
+        series_choice_engagement:
+          motif_keyword: tim_a_vs_tim_b_business_scenarios
+          emotional_arc: curiosity_consideration_community_participation
+          episode_progression: scenario_presentation_choice_analysis_community_discussion
+          engagement_style: choice_questions_interactive_participation
 
         series_competitive_intelligence:
           motif_keyword: business_strategy_competitive_analysis
@@ -62,11 +78,14 @@ replay_logic:
         visual_anchors: specific_gestures_expressions_or_visual_elements
         emotional_anchors: peak_emotional_moments_that_create_lasting_impression
         
-        # NEW: Viral script specific triggers
+        # ENHANCED: Cultural and choice engagement triggers
         conspiracy_anchors: mysterious_tone_shifts_and_revelation_moments
         authority_anchors: credibility_establishment_phrases_and_professional_backdrops
         comparison_anchors: dramatic_price_or_value_comparisons
         pattern_anchors: rule_of_three_demonstrations_and_repetitive_structures
+        cultural_anchors: current_slang_integration_and_phenomena_references
+        choice_anchors: tim_scenarios_and_interactive_participation_triggers
+        community_anchors: guyub_values_and_collective_decision_making
 
     protocol:
       replay_trigger_active:
@@ -622,4 +641,4 @@ success_metrics:
   conspiracy_engagement: viewer_participation_in_theory_building_discussions
   authority_trust_building: progression_from_skepticism_to_credibility_acceptance
   comparison_education: understanding_depth_of_value_analysis_concepts
-  pattern_recognition_learning: application_of_business_principles_in_comments
+  pattern_recognition_learning: application_of_business_principles_in_comments\n\n# NEW: Choice-Based Engagement System 2024-2025\nchoice_engagement_system:\n  module_id: choice_based_engagement_system\n  enabled: true\n  priority: HIGH_ENGAGEMENT_OPTIMIZATION\n\n  team_scenarios:\n    business_choices:\n      - \"Tim bootstrapping vs Tim investment\"\n      - \"Tim mindful consumption vs Tim FOMO culture\"\n      - \"Tim brand loyal vs Tim praktis ganti-ganti\"\n      - \"Tim nilai authenticity vs Tim chase viral\"\n      - \"Tim community building vs Tim individual success\"\n    \n    cultural_choices:\n      - \"Tim rojali vs Tim pembeli aktif\"\n      - \"Tim guyub collaboration vs Tim individual competition\"\n      - \"Tim social consciousness vs Tim profit only\"\n      - \"Tim mindful spending vs Tim impulse buying\"\n      - \"Tim local brand support vs Tim global brand preference\"\n\n    lifestyle_choices:\n      - \"Tim beauty 21% spending vs Tim fashion 20% spending\"\n      - \"Tim dining out experiences vs Tim home cooking\"\n      - \"Tim sustainable practices vs Tim convenience priority\"\n      - \"Tim value alignment purchasing vs Tim price only decisions\"\n\n  cultural_choice_questions:\n    rojali_discussions:\n      - \"Lo pernah jadi rojali nggak?\"\n      - \"Rojali behavior actually smart for economy?\"\n      - \"Mall socialization vs online shopping preference?\"\n    \n    economic_awareness:\n      - \"Brand choices reflect economic status?\"\n      - \"Price comparison habit or brand loyalty?\"\n      - \"43% brand switching every 1-3 months - normal?\"\n    \n    social_responsibility:\n      - \"Expect brands speak out social issues?\"\n      - \"Authentic value alignment vs marketing virtue signaling?\"\n      - \"Community benefit vs individual profit priority?\"\n\n  engagement_triggers:\n    choice_questions_universal_effectiveness: true\n    interactive_participation_requirements:\n      - present_clear_options\n      - cultural_relevance_priority\n      - community_discussion_generation\n      - avoid_false_dichotomies\n    \n    platform_optimization:\n      instagram: \"poll stickers + comment engagement\"\n      tiktok: \"duet responses + comment scenarios\"\n      youtube: \"comment discussion + community posts\"\n\n  cultural_integration_2024_2025:\n    current_phenomena_alignment:\n      - rojali_40_percent_mall_traffic\n      - mindful_consumption_73_percent\n      - brand_switching_43_percent\n      - value_alignment_79_percent\n      - social_consciousness_70_percent\n    \n    guyub_values_integration:\n      - community_decision_making_preference\n      - collective_learning_over_individual_success\n      - togetherness_orientation_choices\n      - collaborative_exploration_scenarios

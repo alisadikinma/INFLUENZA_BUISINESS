@@ -1,16 +1,88 @@
-version: "1.0.0"
+version: "2.4.0"
 pattern_ref_prefix: "!RAG_HOOKS"
 
-# OPTIMIZED HOOK PACK - 25 High-Performance Viral Business Hooks
+# OPTIMIZED HOOK PACK v2.4 - Cultural Integration 2024-2025
+# Enhanced with cultural phenomena, dual format support, and current slang
 # Focused on proven viral patterns for Indonesian Gen Z entrepreneurs
 
 hook_library:
   domain: "business_id"
-  tags: ["bisnis_ID", "viral_education", "gen_z_entrepreneurs", "indonesian_business"]
-  
-  # High-performance hooks only (removed low-performing patterns)
+  tags: ["bisnis_ID", "viral_education", "gen_z_entrepreneurs", "indonesian_business", "cultural_2024_2025", "dual_format"]
+
+  # Cultural Phenomena Integration 2024-2025
+  cultural_integration:
+    current_slang: ["anjay", "anjir", "rilcuy", "markicob"]
+    phenomena_2024_2025:
+      - rojali_phenomenon: "40% mall traffic doesn't convert"
+      - mindful_consumption: "73% choose mindful over FOMO"
+      - brand_switching: "43% switch brands every 1-3 months"
+      - value_alignment: "79% factor values into purchase decisions"
+      - social_consciousness: "70% expect brands social stance"
+    cultural_values:
+      - guyub_community_orientation: "togetherness over individualistic"
+      - authentic_brand_alignment: "values over social status"
+      - real_raw_relatable: "67% prefer authentic over polished"
+
+  # Enhanced hooks with cultural integration
   hooks:
-    # TIER 1: Viral Script Optimized Hooks (Highest Performance)
+    # TIER 0: Cultural Connection Hooks (30s Relate Format)
+    - id: "HC001"
+      archetype: "cultural_relate"
+      template: "Rojali (rombongan jarang beli) {statistic} mall traffic... relate nggak?"
+      tags: ["cultural_2024", "rojali_phenomenon", "30s_relate", "choice_engagement"]
+      guidance:
+        platform_fit: ["IG", "TikTok", "YT"]
+        length_sec_max: 3.0
+        tone: "relatable, empathetic, gue banget"
+        viral_potential: "very_high"
+        cultural_sensitivity: "acknowledge economic pressures"
+        format_preference: "30s_relate"
+      example_fill:
+        statistic: "40%"
+        engagement_trigger: "Lo pernah jadi rojali nggak?"
+
+    - id: "HC002"
+      archetype: "cultural_relate"
+      template: "{current_slang}, 43% Gen Z ganti brand tiap 1-3 bulan. {relate_question}"
+      tags: ["cultural_2024", "brand_switching", "current_slang", "30s_relate"]
+      guidance:
+        platform_fit: ["IG", "TikTok", "YT"]
+        length_sec_max: 3.0
+        tone: "natural, unscripted, relatable"
+        viral_potential: "high"
+        slang_integration: "natural usage only"
+        choice_scenario: "Tim brand loyal atau tim praktis?"
+      example_fill:
+        current_slang: "Anjay/Rilcuy"
+        relate_question: "Lo juga kan?"
+
+    - id: "HC003"
+      archetype: "cultural_relate"
+      template: "73% Gen Z pilih mindful consumption over FOMO. {values_alignment}"
+      tags: ["cultural_2024", "mindful_consumption", "value_alignment", "30s_relate"]
+      guidance:
+        platform_fit: ["IG", "TikTok", "YT"]
+        length_sec_max: 3.0
+        tone: "thoughtful, community-focused"
+        viral_potential: "high"
+        community_engagement: "Tim mindful vs Tim FOMO culture"
+      example_fill:
+        values_alignment: "Character development sih ini"
+
+    - id: "HC004"
+      archetype: "cultural_relate"
+      template: "Markicob analisis, kenapa {brand_behavior} ini jadi {cultural_pattern}?"
+      tags: ["cultural_2024", "analysis_style", "current_slang", "30s_relate"]
+      guidance:
+        platform_fit: ["IG", "TikTok", "YT"]
+        length_sec_max: 3.0
+        tone: "collaborative exploration"
+        viral_potential: "high"
+        slang_meaning: "mari kita coba - let's try together"
+      example_fill:
+        brand_behavior: "live shopping engagement"
+        cultural_pattern: "62% active participation"
+    # TIER 1: Enhanced Viral Script Hooks with Cultural Integration
     - id: "H001"
       archetype: "curiosity"
       template: "Ini yang bikin {target_business} {positive_outcome} tanpa {common_constraint}"

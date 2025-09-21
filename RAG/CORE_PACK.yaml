@@ -1,4 +1,4 @@
-version: "1.0.0"
+version: "2.4.0"
 
 pattern_ref_prefix: '!RAG_CORE_MODULES'
 
@@ -6,6 +6,9 @@ compiled_from:
   - Hook Template Bank v3.8.2
   - Script Format Blueprint v3.8.2
   - Viral Script Analysis Enhancement v1.0
+  - Cultural Research Integration 2024-2025
+  - Dual Format System Implementation
+  - Universal Platform Optimization
 
 default_tone:
   baseline_emotional_state: curious_engagement_with_cultural_authenticity
@@ -13,6 +16,9 @@ default_tone:
     - natural_code_switching_indonesian_english
     - playful_slang_with_respectful_boundaries
     - meme_friendly_phrasing
+    - current_slang_2024_2025: ["anjay", "anjir", "rilcuy", "markicob"]
+    - cultural_phenomena_integration: ["rojali", "mindful_consumption", "guyub_values"]
+    - authentic_relatability_priority: "real, raw, relatable over polished"
 
 voice_constraints:
   no_preachy: true
@@ -27,41 +33,97 @@ tone_transitions:
     to: clarified
     trigger: explain_clearly
 
-# ENHANCED: Hook patterns with viral script structures
+# ENHANCED: Dual Format System Support
+format_selection_logic:
+  30s_relate_triggers:
+    - cultural_observation_input
+    - daily_life_business_query
+    - kenapa_pattern: "kenapa [brand] [behavior]"
+    - relate_feeling_request
+    - rojali_phenomenon_references
+    - choice_engagement_scenarios
+
+  60s_education_triggers:
+    - explicit_business_strategy_request
+    - framework_education_need
+    - numbered_strategy_request
+    - gimana_cara_pattern: "gimana cara [business_goal]"
+    - comprehensive_learning_request
+    - creator_insights_request
+
+universal_platform_optimization:
+  single_content_multiple_platforms: "Instagram/TikTok/YouTube"
+  platform_specific_emphasis: "presentation adaptation only"
+  cross_platform_hashtags: "universal + platform additions"
+  cultural_authenticity_universal: "Indonesian Gen Z voice resonates all platforms"
+  attention_span_reality: "8 seconds average, 3 seconds hook window"
+
+# ENHANCED: Hook patterns with viral script structures + cultural integration
 hook_patterns:
+  # Cultural Connection Patterns (30s relate format)
+  rojali_phenomenon:
+    template: "Rojali (rombongan jarang beli) [relatability_question]"
+    cultural_context: "40% mall traffic doesn't convert to sales"
+    engagement_trigger: "Lo pernah jadi rojali nggak?"
+    guardrails:
+      - acknowledge_economic_pressures
+      - maintain_gentle_humor
+
+  brand_switching_cultural:
+    template: "[current_slang] 43% Gen Z ganti brand tiap 1-3 bulan. [relate_question]"
+    cultural_insight: "economic sophistication and price sensitivity"
+    choice_scenario: "Tim brand loyal atau tim praktis ganti-ganti?"
+
+  mindful_consumption_shift:
+    template: "73% Gen Z pilih mindful consumption over FOMO. [values_alignment]"
+    cultural_evolution: "FOMO redefined as 'Filter On My Own'"
+    community_focus: "Tim mindful vs Tim FOMO culture"
+
+  # Traditional patterns enhanced with cultural sensitivity
   myth_bust:
     template: Bukan [assumption], tapi [reality]
     guardrails:
       - no_unverified_claims
+      - cultural_sensitivity_indonesia
 
   counter_intuitive:
     template: Semakin [X], malah [Y]
+    cultural_integration: "indonesian_market_examples"
 
   what_if:
     template: Gimana kalau [scenario]?
+    slang_integration: "natural_current_slang_usage"
 
   stat_shock:
     template: '[credible_number]% dari [group] [finding]'
     requires_citation: true
+    cultural_relevance: "indonesian_gen_z_context_priority"
 
-  # NEW: Viral script-inspired patterns
+  # ENHANCED: Cultural integration patterns
   numbered_countdown:
     template: "[number] [mistake_type] [target_group] yang bikin [negative_outcome]"
     structure: "countdown format (4→3→2→1)"
+    cultural_sensitivity: "guyub community values integration"
     guardrails:
       - maintain_educational_value
       - avoid_shaming_language
+      - respect_economic_class_differences
     examples:
       - "4 kesalahan pebisnis Gen Z yang bikin usaha mereka sepi pembeli"
+      - "3 alasan rojali phenomenon actually smart for Indonesian economy"
 
   authority_framework:
     template: "Aku pernah [experience] di [authority_context] dan [insight_statement]"
     structure: "experience establishment + framework delivery"
+    creator_pattern_alignment: "natural storytelling like Maudy Ayunda, Samuel Christ approach"
     guardrails:
       - verify_experience_claims
       - provide_actionable_insights
+      - avoid_signature_taglines: "1 miliar pertama"
+      - maintain_cultural_authenticity
     examples:
       - "Aku pernah kerja di salah satu perusahaan FMCG terbesar di Indonesia dan hanya ada tiga cara untuk nge-grow bisnis kamu"
+      - "Berdasarkan pengalaman gue, 79% Gen Z factor values into purchase decisions..."
 
   conspiracy_reveal:
     template: "[relatable_setup] Apakah ini [question] atau [alternative_theory]?"

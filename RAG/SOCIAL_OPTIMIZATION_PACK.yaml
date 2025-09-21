@@ -1,11 +1,39 @@
-version: "1.0.0"
+version: "2.4.0"
 
-# SOCIAL OPTIMIZATION PACK - Advanced hashtag strategy and viral amplification
-# Optimized for Indonesian Gen Z business education content
+# SOCIAL OPTIMIZATION PACK v2.4 - Universal Platform Strategy 2024-2025
+# Enhanced with platform usage data, attention span reality, and cross-platform optimization
+# Integrated cultural authenticity for Indonesian Gen Z Business Content
 
 exports:
+  # NEW: Universal Platform Optimization Strategy
+  universal_platform_optimization:
+    platform_usage_data_2024_2025:
+      instagram: "95.8% usage - highest penetration - stories shareability focus"
+      youtube: "87.9% usage - educational depth emphasis"
+      tiktok: "66.2% usage fastest growth - viral potential maximum"
+      whatsapp: "94.2% usage - communication primary for sharing"
+
+    attention_span_reality:
+      current_span: "8 seconds average declining across all platforms"
+      hook_critical_window: "3 seconds maximum engagement window"
+      immediate_value_delivery: "essential all platforms for retention"
+
+    cross_platform_strategy:
+      single_content_optimization: "content works across Instagram/TikTok/YouTube simultaneously"
+      platform_specific_emphasis: "presentation style adaptation only, not content change"
+      cultural_authenticity_universal: "Indonesian Gen Z voice resonates all platforms"
+      engagement_triggers_universal: "choice questions tim A vs tim B work everywhere"
+
+    hashtag_strategy_universal:
+      core_hashtags: "#IndonesianEntrepreneur #GenZBusiness #BisnisGenZ"
+      cultural_hashtags: "#RelateBanget #GuyubBusiness #MindfulConsumption"
+      platform_specific_additions:
+        instagram: "#IndonesianBusiness #StartupIndonesia #EntrepreneurLife"
+        tiktok: "#indonesian #bisnis #entrepreneur #viral #genz"
+        youtube: "#BusinessEducation #IndonesianStartup #EntrepreneurTips"
+
   viral_hashtag_engine:
-    # Intelligent hashtag selection based on content analysis
+    # Enhanced hashtag selection with cultural integration
     content_analysis_system:
       topic_extraction:
         primary_business_topics:
@@ -34,6 +62,15 @@ exports:
           - "jakarta_startup"
           - "indonesian_retail"
           - "local_business"
+
+        # NEW: Cultural phenomena 2024-2025
+        cultural_phenomena_2024_2025:
+          - "rojali_phenomenon"
+          - "mindful_consumption_shift"
+          - "brand_switching_behavior"
+          - "guyub_community_values"
+          - "social_consciousness_brands"
+          - "authentic_brand_alignment"
 
     # Strategic hashtag categories for maximum reach
     hashtag_strategy_framework:

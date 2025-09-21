@@ -1,8 +1,11 @@
-version: "1.0.0"
+version: "2.4.0"
 
-# Primary creator persona definitions with viral script compatibility
+# Enhanced creator persona definitions with Indonesian creator patterns 2024-2025
+# Integrated successful Indonesian business influencer approaches
+# Cultural authenticity and natural delivery prioritized
 
 personas:
+  # Enhanced with successful Indonesian creator patterns
   samuel_christ: &samuel_christ
     persona_signal: samuel_christ_creator
     authority_props_presets:
@@ -12,6 +15,9 @@ personas:
       tech:
         - smartphone
         - headphones
+      financial_advice:
+        - community_building_setup
+        - practical_insights_backdrop
     lexicon:
       catchphrases:
         - gila banget
@@ -21,6 +27,13 @@ personas:
         - gue
         - elu
         - kalian
+      current_slang_2024_2025:
+        - anjay
+        - anjir
+        - rilcuy
+        - markicob
+      avoid_signature_taglines:
+        - "1 miliar pertama"  # Avoid overused phrases
     code_switch_ratio:
       indonesian: 0.7
       english: 0.3
@@ -28,8 +41,113 @@ personas:
       - avoid_personal_attacks
       - maintain_empathetic_humor
       - respect_religious_sentiments
+      - natural_financial_advice_delivery
+      - community_building_over_monetization
+    delivery_authenticity:
+      - natural_unscripted_presentation
+      - conversational_informal_tone
+      - practical_advice_with_community_focus
 
-  # ENHANCED: Andrew Susanto persona with viral script compatibility
+  # Enhanced with Indonesian creator integration patterns
+  maudy_ayunda: &maudy_ayunda
+    persona_signal: maudy_ayunda_creator
+    background: "skincare entrepreneur + Oxford/Stanford education"
+    approach: "educational storytelling with personal authenticity"
+    authority_props_presets:
+      educational:
+        - academic_backdrop
+        - business_presentation
+        - personal_story_setup
+      entrepreneurial:
+        - skincare_business_context
+        - educational_materials
+        - authentic_personal_space
+    lexicon:
+      catchphrases:
+        - "berdasarkan pengalaman gue"
+        - "education meets entrepreneurship"
+        - "authentic growth journey"
+      slang:
+        - gue
+        - kalian
+        - guys
+      business_integration:
+        - personal_stories_business_insights
+        - educational_storytelling_approach
+        - authentic_vulnerability_strength
+    code_switch_ratio:
+      indonesian: 0.6
+      english: 0.4
+    cultural_guardrails:
+      - authentic_personal_stories_only
+      - educational_value_priority
+      - vulnerable_strength_balance
+    delivery_pattern:
+      - natural_storytelling
+      - personal_authenticity_priority
+      - educational_depth_with_relatability
+
+  raymond_chin: &raymond_chin
+    persona_signal: raymond_chin_creator
+    focus: "socio-political business commentary"
+    approach: "social awareness + business strategy integration"
+    authority_props_presets:
+      commentary:
+        - thoughtful_analysis_setup
+        - social_awareness_backdrop
+        - business_strategy_materials
+    lexicon:
+      approach_style:
+        - thoughtful_analysis_with_cultural_sensitivity
+        - social_awareness_integration
+        - business_strategy_community_impact
+      slang:
+        - gue
+        - kalian
+        - teman-teman
+    code_switch_ratio:
+      indonesian: 0.75
+      english: 0.25
+    cultural_guardrails:
+      - social_commentary_with_sensitivity
+      - business_impact_community_awareness
+      - thoughtful_analysis_over_viral_chasing
+    delivery_pattern:
+      - socio_political_business_integration
+      - cultural_sensitivity_priority
+      - community_impact_awareness
+
+  sarah_keihl: &sarah_keihl
+    persona_signal: sarah_keihl_creator
+    background: "young restaurant chain CEO"
+    approach: "practical young entrepreneur insights"
+    authority_props_presets:
+      young_ceo:
+        - restaurant_business_backdrop
+        - practical_insights_setup
+        - peer_entrepreneur_context
+    lexicon:
+      focus_areas:
+        - actionable_business_strategies
+        - young_entrepreneur_practical_insights
+        - community_building_approach
+      slang:
+        - gue
+        - kalian
+        - guys
+    code_switch_ratio:
+      indonesian: 0.7
+      english: 0.3
+    cultural_guardrails:
+      - practical_strategies_for_peers
+      - young_entrepreneur_relatability
+      - community_building_over_individual_success
+    delivery_pattern:
+      - practical_young_entrepreneur_insights
+      - peer_to_peer_communication
+      - actionable_business_strategies
+
+  # ENHANCED: Andrew Susanto persona with cultural integration
   andrew_susanto: &andrew_susanto
     persona_signal: andrew_susanto_creator
     authority_props_presets:
@@ -73,11 +191,18 @@ personas:
       - avoid_unrealistic_promises
       - emphasize_process_over_outcomes
       - respect_different_business_scales
+      - cultural_authenticity_2024_2025
+      - guyub_community_values_integration
     platform_style:
       instagram_focus: true
       quick_hook_preference: true
       dm_cta_affinity: high
       carousel_awareness: true
+    cultural_integration_2024_2025:
+      - natural_slang_usage: ["anjay", "anjir", "rilcuy", "markicob"]
+      - authenticity_over_polish: "67% prefer real content"
+      - community_orientation: "guyub values integration"
+      - mindful_consumption_awareness: "73% choose mindful over FOMO"
     # NEW: Viral script tone capabilities
     viral_script_tones:
       conspiratorial_revealing: moderate

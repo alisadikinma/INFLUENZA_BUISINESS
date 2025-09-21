@@ -1,12 +1,38 @@
-version: "1.2.0"
+version: "2.4.0"
 
-# BUSINESS SCIENCE PACK - Enhanced viral script business intelligence
-# Optimized for Indonesian Gen Z business education with viral potential
+# BUSINESS SCIENCE PACK v2.4 - Indonesian Context Integration 2024-2025
+# Enhanced with cultural consumer behavior data and local market insights
+# Optimized for Indonesian Gen Z business education with cultural relevance
 
 exports:
   marketing_science:
+    # NEW: Indonesian Consumer Behavior Data 2024-2025
+    indonesian_context_integration:
+      consumer_behavior_data:
+        mall_conversion_rate: "40% rojali phenomenon - traffic without purchase"
+        brand_switching_frequency: "43% Gen Z switch brands every 1-3 months"
+        value_alignment_priority: "79% factor values into purchase decisions"
+        social_consciousness: "70% expect brands to speak out on social issues"
+        live_shopping_engagement: "62% actively participate in live shopping"
+        authenticity_preference: "67% prefer real, raw, relatable content"
+        mindful_consumption_shift: "73% choose mindful over traditional FOMO culture"
+
+      lifestyle_spending_priorities:
+        beauty: "21% discretionary spending - identity expression priority"
+        fashion: "20% discretionary spending - personal style emphasis"
+        dining_out: "14% discretionary spending - experience value"
+        identity_expression_focus: "consumption for self-expression over purely functional"
+        sustainable_preference: "ethical business practices expectation"
+
+      cultural_values_business:
+        guyub_community_orientation: "togetherness preference over individualistic approaches"
+        authentic_brand_alignment: "genuine values over social status signaling"
+        economic_class_awareness: "sophisticated brand choice understanding"
+        social_responsibility_expectation: "brands must demonstrate genuine commitment"
+        collaborative_business_approach: "community-focused solutions preferred"
+
     framework_mapper:
-      # Enhanced viral business script framework mapping
+      # Enhanced with Indonesian cultural context framework mapping
       rules:
         # Pricing and value frameworks
         - intent: "pricing" → frameworks: ["Anchoring", "Decoy Effect", "Price Psychology"]
@@ -32,6 +58,13 @@ exports:
         - intent: "conspiracy_revealing" → frameworks: ["Pattern Recognition", "Cognitive Dissonance"]
         - intent: "competitive_analysis" → frameworks: ["Porter's Five Forces", "Game Theory"]
         - intent: "retail_psychology" → frameworks: ["Choice Architecture", "Environmental Psychology"]
+
+        # NEW: Indonesian cultural frameworks
+        - intent: "rojali_phenomenon" → frameworks: ["Consumer Behavior Analysis", "Economic Psychology"]
+        - intent: "mindful_consumption" → frameworks: ["Values-Based Marketing", "Conscious Consumer Theory"]
+        - intent: "guyub_community" → frameworks: ["Community Marketing", "Collective Decision Making"]
+        - intent: "brand_switching_behavior" → frameworks: ["Switching Cost Theory", "Brand Loyalty Dynamics"]
+        - intent: "social_consciousness" → frameworks: ["Purpose-Driven Branding", "Social Impact Marketing"]
         
         # Topic-specific framework mapping
         - topic: "dwell time" → frameworks: ["Choice Architecture", "Environmental Design"]
