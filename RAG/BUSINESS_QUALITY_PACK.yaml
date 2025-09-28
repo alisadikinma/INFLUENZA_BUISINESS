@@ -1,0 +1,239 @@
+version: "3.0.0"
+
+# BUSINESS QUALITY PACK v3.0 - Business Science + Quality Validation Consolidated
+# Merged: BUSINESS_SCIENCE_PACK + RUNTIME_QUALITY for viral business education excellence
+# Enhanced with Indonesian business context + 98%+ viral quality assurance
+
+pattern_ref_prefix: '!RAG_BUSINESS_QUALITY'
+
+# ENHANCED: Indonesian Business Science with Viral Education Integration
+indonesian_business_science:
+  # COMPREHENSIVE: Indonesian business context with cultural integration 2024-2025
+  local_business_ecosystem:
+    cultural_business_values:
+      guyub_collaborative_approach: "community success over individual competition"
+      gotong_royong_business_model: "mutual support in entrepreneurial journey"
+      economic_accessibility_focus: "inclusive growth considering resource limitations"
+      authentic_value_alignment: "genuine business practices over profit-only mindset"
+
+    consumer_behavior_data_2024_2025:
+      rojali_phenomenon: "40% mall visitors browse without purchasing - social experience priority"
+      brand_switching_frequency: "43% Gen Z switch brands every 1-3 months - performance-based loyalty"
+      mindful_consumption_shift: "73% choose conscious decisions over FOMO culture"
+      value_alignment_priority: "79% factor personal values into purchase decisions"
+      social_consciousness_expectation: "70% expect brands to take social stances"
+
+    indonesian_startup_ecosystem:
+      unicorn_success_stories: "Gojek, Grab, Tokopedia - collaborative ecosystem building examples"
+      msme_digital_transformation: "98% MSME using digital platforms for business growth"
+      creator_economy_monetization: "Local creator success patterns on Instagram, TikTok, YouTube"
+      government_support_integration: "Prakerja, UMKM development programs context"
+
+  # VIRAL BUSINESS FRAMEWORKS - Indonesian Context Optimized
+  viral_business_frameworks:
+    pricing_psychology_indonesian:
+      anchoring_with_cultural_sensitivity: "price positioning considering economic class awareness"
+      value_perception_optimization: "quality-price balance for Indonesian market"
+      economic_pressure_acknowledgment: "pricing strategies that respect budget constraints"
+
+    marketing_psychology_local:
+      community_first_messaging: "collective benefit framing over individual gain"
+      authenticity_over_polish: "67% prefer real, raw, relatable content approach"
+      trust_building_indonesian_style: "vulnerability sharing + peer validation emphasis"
+
+    competitive_strategy_cultural:
+      collaboration_over_competition: "market expansion through ecosystem building"
+      local_vs_global_brand_positioning: "Indonesian business identity in global market"
+      cultural_authenticity_advantage: "genuine local connection as competitive moat"
+
+# ENHANCED: Evidence Engine with Viral Business Content Optimization
+viral_evidence_engine:
+  business_claim_validation:
+    # CRITICAL: Viral business content requires evidence backing
+    viral_business_metrics:
+      pricing_psychology_claims: "back with consumer behavior research"
+      conversion_rate_improvements: "provide context + realistic ranges"
+      engagement_rate_increases: "specify platform + demographic context"
+      customer_acquisition_results: "include timeline + methodology"
+
+    authority_experience_claims:
+      corporate_work_experience: "frame as personal insight, not company secrets"
+      industry_insider_knowledge: "focus on general principles, avoid confidential info"
+      specific_company_insights: "public information only + educational framing"
+
+    competitive_analysis_claims:
+      business_relationship_revelations: "public information basis required"
+      market_strategy_observations: "frame as analysis, not definitive accusations"
+      brand_positioning_analysis: "observable patterns + multiple perspective consideration"
+
+  # VIRAL CONTENT EVIDENCE STANDARDS
+  viral_content_evidence_requirements:
+    conspiracy_style_content:
+      evidence_standard: "educational_analysis_with_alternative_explanations"
+      required_language: ["kemungkinan", "analisis menunjukkan", "bisa jadi", "pattern suggests"]
+      prohibited_language: ["pasti sengaja", "terbukti manipulasi", "rahasia terlarang"]
+      balance_requirement: "provide multiple explanations for patterns observed"
+
+    shock_value_content:
+      evidence_standard: "verifiable_statistics_with_source_citation"
+      context_requirement: "demographic_geographic_timeframe_specification"
+      disclaimer_integration: "results_may_vary_based_on_context"
+
+# ENHANCED: Quality Validation System for Viral Business Content
+viral_quality_validation:
+  # COMPREHENSIVE: Multi-layer validation for 98%+ viral guarantee
+  viral_potential_validation:
+    hook_effectiveness_scoring:
+      attention_capture_rate: "3_second_engagement_prediction_algorithm"
+      curiosity_gap_strength: "mystery_intrigue_level_measurement"
+      cultural_resonance_score: "indonesian_gen_z_connection_accuracy"
+
+    story_completion_validation:
+      retention_probability: "end_to_end_consumption_likelihood"
+      educational_value_delivery: "learning_objective_achievement_verification"
+      emotional_journey_satisfaction: "viewer_satisfaction_prediction"
+
+    engagement_optimization_check:
+      comment_driving_potential: "discussion_generation_likelihood"
+      share_worthiness_assessment: "viral_distribution_probability"
+      save_behavior_prediction: "reference_value_measurement"
+
+  # CULTURAL AUTHENTICITY VALIDATION
+  cultural_authenticity_validation:
+    indonesian_gen_z_voice_accuracy:
+      slang_appropriateness_2024_2025: "current_language_pattern_verification"
+      code_switching_naturalness: "indonesian_english_mixing_authenticity"
+      cultural_sensitivity_check: "respect_for_economic_social_context"
+
+    community_psychology_alignment:
+      guyub_values_integration: "community_first_messaging_verification"
+      trust_building_effectiveness: "vulnerability_sharing_appropriateness"
+      peer_validation_integration: "community_belonging_support"
+
+  # EDUCATIONAL VALUE VALIDATION
+  educational_value_validation:
+    business_knowledge_accuracy:
+      factual_correctness_verification: "business_concept_accuracy_check"
+      indonesian_context_appropriateness: "local_market_reality_alignment"
+      practical_application_relevance: "real_world_implementation_feasibility"
+
+    learning_objective_achievement:
+      skill_development_potential: "competency_building_effectiveness"
+      knowledge_retention_optimization: "memorable_content_structure"
+      practical_implementation_guidance: "actionable_insight_delivery"
+
+# NUMBERED CONTENT PROMISE VALIDATION - Critical for Viral Guarantee
+numbered_content_validator:
+  enabled: true
+  priority: CRITICAL_VIRAL_GUARANTEE_COMPONENT
+
+  # VIRAL PROMISE VALIDATION SYSTEM
+  viral_promise_tracking:
+    title_promise_extraction:
+      numbered_patterns: ["(\\d+)\\s+(cara|strategi|rahasia|trik|langkah|tips|hal|alasan)"]
+      countdown_patterns: ["pertama", "kedua", "ketiga", "keempat", "kelima"]
+      promise_commitment_tracking: "extract_and_flag_delivery_requirements"
+
+    content_delivery_validation:
+      segment_analysis: "scan_all_content_segments_for_numbered_delivery"
+      completion_verification: "ensure_all_promised_points_delivered"
+      quality_assessment: "validate_each_point_provides_real_value"
+
+    viral_guarantee_integration:
+      promise_fulfillment_scoring: "numbered_delivery_completeness_measurement"
+      educational_value_per_point: "each_numbered_item_learning_value_assessment"
+      engagement_potential_per_point: "viral_worthiness_of_each_delivered_item"
+
+# PLATFORM STRUCTURE VALIDATION - Viral Format Optimization
+platform_structure_validator:
+  viral_format_optimization:
+    30s_relate_structure_validation:
+      hook_timing_optimization: "0.5_2.5s_cultural_connection_window"
+      relatability_instant_verification: "gue_banget_feeling_achievement_check"
+      community_engagement_trigger: "choice_question_effectiveness_validation"
+
+    60s_education_structure_validation:
+      authority_establishment_timing: "2_4s_credibility_building_window"
+      knowledge_delivery_pacing: "educational_content_optimal_distribution"
+      retention_optimization: "curiosity_gap_maintenance_throughout"
+
+  # VIRAL CONTENT STRUCTURE REQUIREMENTS
+  viral_structure_compliance:
+    attention_retention_optimization:
+      hook_strength_requirement: "3_second_engagement_capture_mandatory"
+      story_progression_validation: "logical_flow_with_emotional_peaks"
+      resolution_satisfaction: "satisfying_conclusion_with_action_trigger"
+
+    platform_algorithm_alignment:
+      instagram_optimization: "dm_driving_elements + story_shareability"
+      tiktok_optimization: "completion_rate + cultural_authenticity_bonus"
+      youtube_optimization: "retention_curve + educational_value_signaling"
+
+# VIRAL BUSINESS COMPLIANCE - Indonesian Context
+viral_business_compliance:
+  indonesian_market_compliance:
+    cultural_sensitivity_requirements:
+      economic_class_awareness: "acknowledge_resource_limitations_respectfully"
+      religious_cultural_respect: "avoid_content_conflicting_with_local_values"
+      generational_bridge_building: "respect_traditional_values_while_embracing_innovation"
+
+    business_ethics_integration:
+      authentic_success_stories: "realistic_expectations_not_get_rich_quick"
+      community_benefit_emphasis: "collective_growth_over_individual_exploitation"
+      sustainable_business_practices: "long_term_value_creation_focus"
+
+  viral_content_ethics:
+    educational_responsibility:
+      accurate_information_requirement: "verified_business_concepts_only"
+      practical_application_feasibility: "actionable_advice_for_target_demographic"
+      realistic_outcome_expectations: "honest_about_effort_and_timeline_required"
+
+    community_impact_consideration:
+      positive_influence_priority: "inspiring_and_empowering_content_focus"
+      avoid_harmful_misinformation: "fact_check_all_business_claims"
+      inclusive_growth_messaging: "accessible_advice_for_diverse_economic_backgrounds"
+
+# AUTOMATED QUALITY MONITORING SYSTEM
+automated_quality_monitoring:
+  real_time_quality_scoring:
+    viral_potential_tracking: "continuous_engagement_prediction_monitoring"
+    cultural_authenticity_monitoring: "indonesian_voice_accuracy_real_time_check"
+    educational_value_tracking: "learning_objective_achievement_monitoring"
+
+  quality_assurance_alerts:
+    viral_potential_drop_alert: "below_98_percent_triggers_immediate_review"
+    cultural_authenticity_concern: "below_95_percent_triggers_cultural_validation"
+    educational_value_decline: "below_90_percent_triggers_content_review"
+
+  continuous_improvement_system:
+    performance_data_analysis: "identify_patterns_in_high_performing_content"
+    cultural_trend_integration: "adapt_to_evolving_gen_z_language_patterns"
+    algorithm_adaptation: "adjust_to_platform_algorithm_changes"
+
+# Enhanced system integration for business quality assurance
+system_integration:
+  business_validators:
+    - indonesian_business_context_checker
+    - viral_evidence_validator
+    - cultural_authenticity_verifier
+    - educational_value_assessor
+
+  quality_controllers:
+    - viral_guarantee_system
+    - numbered_content_validator
+    - platform_structure_optimizer
+    - compliance_monitor
+
+  continuous_improvement:
+    - performance_analyzer
+    - cultural_trend_tracker
+    - algorithm_adaptation_system
+    - community_feedback_integrator
+
+validation_tags:
+  - business_quality_pack_active
+  - indonesian_business_context_integrated
+  - viral_guarantee_validation_enabled
+  - cultural_authenticity_monitored
+  - educational_value_assured
+  - numbered_content_delivery_validated

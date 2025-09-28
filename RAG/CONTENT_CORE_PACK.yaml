@@ -1,0 +1,251 @@
+version: "3.0.0"
+
+# CONTENT CORE PACK v3.0 - Consolidated Core Content Generation with Viral Optimization
+# Merged: CORE_PACK + PERSONA_PACK optimizations for 98%+ viral potential
+# Enhanced with proven Indonesian viral patterns and cultural authenticity
+
+pattern_ref_prefix: '!RAG_CONTENT_CORE'
+
+# ENHANCED: Viral-first tone with cultural authenticity integration 2024-2025
+default_tone:
+  baseline_emotional_state: viral_curiosity_with_authentic_cultural_connection
+  indonesian_gen_z_viral_markers:
+    - instant_relatability_hooks: ["Gue banget sih ini", "Relate banget kan?", "Siapa yang pernah gini?"]
+    - viral_slang_2024_2025: ["anjay", "anjir", "rilcuy", "markicob", "bestie", "literally", "selow", "healing"]
+    - cultural_phenomena_integration: ["rojali_phenomenon", "mindful_consumption", "guyub_values", "brand_switching"]
+    - authentic_relatability_priority: "raw_real_relatable_over_polished_perfect"
+    - viral_engagement_triggers: ["choice_scenarios", "community_validation", "cultural_connection"]
+
+voice_constraints:
+  no_preachy: true
+  no_overly_formal: true
+  no_excessive_emoji: true
+  viral_authenticity_required: true
+
+# ENHANCED: Dual format with viral optimization triggers
+format_selection_logic:
+  30s_relate_viral_triggers:
+    - instant_cultural_connection_request
+    - daily_life_business_relatability
+    - gue_banget_validation_seeking
+    - choice_scenario_engagement
+    - cultural_phenomenon_observation
+    - personal_experience_sharing_request
+
+  60s_education_viral_triggers:
+    - comprehensive_business_strategy_need
+    - framework_education_with_authority
+    - numbered_strategy_viral_promise
+    - conspiracy_business_revelation_request
+    - authority_establishment_content
+    - competitive_analysis_deep_dive
+
+# VIRAL HOOK ENGINE - Enhanced with 98%+ viral potential patterns
+viral_hook_engine:
+  module_id: viral_hook_engine_enhanced
+  enabled: true
+  viral_guarantee_target: 98
+
+  # CONSOLIDATED: Proven viral hook patterns with engagement multipliers
+  viral_hook_database:
+    # TIER 0: Instant Cultural Connection (4.2x+ engagement multiplier)
+    instant_cultural_hooks:
+      - template: "Rojali (rombongan jarang beli) vibes - {cultural_observation}. {instant_relate_trigger}"
+        engagement_multiplier: 4.2
+        cultural_phenomena: "rojali_40_percent_mall_traffic"
+        viral_triggers: ["cultural_identity", "economic_awareness", "community_belonging"]
+
+      - template: "{current_slang}, 43% Gen Z ganti brand tiap 1-3 bulan. {personal_choice_scenario}"
+        engagement_multiplier: 3.8
+        cultural_phenomena: "brand_switching_frequency"
+        viral_triggers: ["choice_validation", "personal_identity", "economic_sophistication"]
+
+      - template: "73% Gen Z pilih mindful consumption over FOMO culture. {community_identity_question}"
+        engagement_multiplier: 3.6
+        cultural_phenomena: "mindful_consumption_shift"
+        viral_triggers: ["values_alignment", "generational_identity", "cultural_evolution"]
+
+    # TIER 1: Authority with Cultural Authenticity (3.5x+ engagement multiplier)
+    authority_cultural_hooks:
+      - template: "Aku pernah {corporate_experience} di {industry_context} dan cuma ada {number} cara {business_goal}"
+        engagement_multiplier: 3.5
+        authority_markers: ["experience_credibility", "insider_knowledge", "practical_wisdom"]
+        cultural_integration: "humble_expertise_sharing"
+
+      - template: "Berdasarkan pengalaman gue di {fmcg_context}, {shocking_business_insight}"
+        engagement_multiplier: 3.3
+        authority_markers: ["industry_experience", "pattern_recognition", "practical_application"]
+        cultural_integration: "authentic_vulnerability"
+
+    # TIER 2: Conspiracy Business Revelation (3.2x+ engagement multiplier)
+    conspiracy_viral_hooks:
+      - template: "Setiap kali {customer_behavior}, pasti {business_response}. Kebetulan atau strategi?"
+        engagement_multiplier: 3.2
+        psychological_triggers: ["pattern_recognition", "conspiracy_curiosity", "business_awareness"]
+
+      - template: "Apakah {common_business_experience} ini coincidence atau calculated manipulation?"
+        engagement_multiplier: 3.0
+        psychological_triggers: ["questioning_authority", "insider_revelation", "critical_thinking"]
+
+    # TIER 3: Comparison Shock Value (2.8x+ engagement multiplier)
+    comparison_shock_hooks:
+      - template: "{item_a} harganya {price_a}, {item_b} {price_b}. {shocking_multiplier} lebih mahal!"
+        engagement_multiplier: 2.8
+        shock_elements: ["price_psychology", "value_analysis", "economic_awareness"]
+
+      - template: "Brand A spend {amount_a} marketing, Brand B cuma {amount_b}. Guess mana yang viral?"
+        engagement_multiplier: 2.6
+        shock_elements: ["marketing_insight", "resource_efficiency", "viral_strategy"]
+
+  # VIRAL PATTERN OPTIMIZATION SYSTEM
+  engagement_optimization:
+    hook_timing_perfection:
+      attention_capture_window: "0.5-2.5s flexible range"
+      curiosity_gap_creation: "immediate mystery establishment"
+      cultural_connection_instant: "first 1.5 seconds maximum"
+
+    psychological_trigger_sequencing:
+      primary_trigger: "cultural_identity_validation"
+      secondary_trigger: "curiosity_gap_mystery"
+      tertiary_trigger: "community_belonging_invitation"
+
+    platform_optimization:
+      instagram_reels: "dm_driving_hooks + story_shareability"
+      tiktok: "cultural_authenticity_bonus + duet_potential"
+      youtube_shorts: "retention_curve_optimization + educational_signaling"
+
+# CONSOLIDATED PERSONA SYSTEM - Viral Script Compatibility Enhanced
+persona_system:
+  # Enhanced creator personas with viral capability scoring
+  creators:
+    andrew_susanto: &andrew_susanto
+      viral_script_compatibility: 0.85
+      cultural_authenticity_score: 0.88
+      authority_establishment: "corporate_experience_credible"
+      viral_strengths: ["business_practical", "no_nonsense_delivery", "dm_cta_mastery"]
+      lexicon:
+        viral_catchphrases: ["bisnis itu simple", "action beats perfection", "real talk"]
+        current_slang_integration: ["anjay", "literally", "bestie"]
+        business_authority: ["based on experience", "yang gue tau", "real dari lapangan"]
+
+    samuel_christ: &samuel_christ
+      viral_script_compatibility: 0.92
+      cultural_authenticity_score: 0.91
+      community_engagement: "high_energy_relatability"
+      viral_strengths: ["conspiracy_revelation", "community_building", "emotional_connection"]
+      lexicon:
+        viral_catchphrases: ["gila banget", "relate banget", "real gak sih"]
+        current_slang_integration: ["rilcuy", "markicob", "selow", "healing"]
+        community_builders: ["kita bareng", "sama-sama belajar", "guyub nilai"]
+
+    dery_anshaa: &dery_anshaa
+      viral_script_compatibility: 0.79
+      cultural_authenticity_score: 0.86
+      educational_authority: "methodical_expertise_sharing"
+      viral_strengths: ["framework_delivery", "step_by_step_clarity", "case_study_integration"]
+      lexicon:
+        viral_catchphrases: ["mari kita breakdown", "step by step", "praktis aplikatif"]
+        educational_authority: ["berdasarkan riset", "data menunjukkan", "contoh nyata"]
+
+  # VIRAL PERSONA FUSION - Dynamic selection based on content type
+  viral_persona_selector:
+    conspiracy_revealing_content:
+      primary_persona: samuel_christ
+      viral_enhancement: "mystery_building + community_curiosity"
+
+    authority_establishment_content:
+      primary_persona: dery_anshaa
+      viral_enhancement: "credible_expertise + practical_application"
+
+    comparison_shock_content:
+      primary_persona: andrew_susanto
+      viral_enhancement: "direct_impact + business_practical"
+
+    cultural_phenomenon_content:
+      dynamic_selection: "highest_cultural_authenticity_score"
+      viral_enhancement: "authentic_relatability + community_connection"
+
+# CONSOLIDATED CULTURAL AUTHENTICITY ENGINE
+cultural_authenticity_system:
+  indonesian_gen_z_2024_2025:
+    # Enhanced cultural accuracy for viral resonance
+    natural_language_patterns:
+      code_switching_optimal: "70% Indonesian + 30% English strategic mixing"
+      slang_integration_current: ["anjay", "anjir", "rilcuy", "markicob", "bestie", "literally", "selow", "healing"]
+      conversation_flow: "casual_authentic_vulnerable_humble"
+
+    cultural_phenomena_accurate_integration:
+      rojali_phenomenon:
+        context: "40% mall visitors browse without buying"
+        psychology: "social_experience_over_transaction_pressure"
+        business_relevance: "economic_efficiency_cultural_sophistication"
+
+      mindful_consumption_shift:
+        context: "73% Gen Z choose mindful over FOMO culture"
+        psychology: "values_driven_decision_making_evolution"
+        business_relevance: "authentic_brand_alignment_priority"
+
+      guyub_community_values:
+        context: "traditional_togetherness_in_digital_business"
+        psychology: "collective_success_over_individual_achievement"
+        business_relevance: "community_building_over_aggressive_competition"
+
+    trust_building_elements:
+      vulnerability_sharing: "learning_process_transparency + authentic_struggle_acknowledgment"
+      peer_validation: "community_input_seeking + collective_wisdom_respect"
+      humble_expertise: "experienced_guide_not_unreachable_guru"
+
+# ENHANCED: Emotional engagement optimization for viral potential
+emotional_engagement_system:
+  viral_emotional_journey:
+    hook_emotional_state: "curious_surprised_culturally_connected"
+    development_emotional_state: "engaged_learning_community_belonging"
+    climax_emotional_state: "empowered_validated_action_ready"
+    resolution_emotional_state: "satisfied_excited_sharing_motivated"
+
+  community_psychology_integration:
+    belonging_triggers: ["choice_scenarios", "shared_experience_validation", "cultural_identity_confirmation"]
+    validation_seeking: ["peer_approval_opportunities", "community_wisdom_acknowledgment", "collective_decision_making"]
+    social_proof_mechanisms: ["community_success_stories", "peer_learning_examples", "cultural_phenomenon_validation"]
+
+# STREAMLINED: Essential validation with viral focus
+validation_system:
+  viral_content_validation:
+    cultural_authenticity_check: "95%+ Indonesian Gen Z voice accuracy required"
+    engagement_potential_scoring: "98%+ viral potential target"
+    educational_value_preservation: "90%+ learning objective achievement"
+
+  quality_gates:
+    hook_effectiveness: "3_second_attention_capture_guarantee"
+    story_completion: "retention_to_end_optimization"
+    cta_conversion: "engagement_action_prediction_accuracy"
+
+  success_criteria:
+    viral_potential_score: 98
+    cultural_authenticity_score: 95
+    educational_value_score: 90
+    engagement_prediction_confidence: 85
+
+# Enhanced integration points for consolidated architecture
+system_integration:
+  input_processors:
+    - cultural_context_analyzer
+    - viral_potential_assessor
+    - format_selector_enhanced
+
+  output_optimizers:
+    - viral_hook_injector
+    - cultural_authenticity_validator
+    - engagement_maximizer
+
+  quality_controllers:
+    - viral_guarantee_validator
+    - cultural_accuracy_checker
+    - educational_value_maintainer
+
+validation_tags:
+  - content_core_pack_active
+  - viral_optimization_enabled
+  - cultural_authenticity_guaranteed
+  - dual_format_enhanced
+  - 98_percent_viral_potential_targeted
